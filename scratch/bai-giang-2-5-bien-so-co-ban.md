@@ -1,9 +1,9 @@
-# Bài Giảng 2.5: Biến Số Cơ Bản
+# Bài giảng 2.5: Biến số cơ bản
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 45 phút
-- **Độ tuổi**: Lớp 3-4 (8-9 tuổi)
-- **Mức độ**: Cơ bản đến trung bình
+- **Độ tuổi**: 8-9 tuổi
+- **Trình độ**: Cơ bản đến trung bình
 - **Mục tiêu**: Làm quen với biến số và cách sử dụng trong Scratch
 
 ## 🎯 Mục tiêu học tập
@@ -23,68 +23,84 @@
 - Rèn luyện tính chính xác
 - Khuyến khích thử nghiệm và khám phá
 
-## 🧮 Nội dung bài học
+## 🧠 Nội dung bài học
 
-### Phần 1: Giới thiệu biến số qua hoạt động không máy tính (10 phút)
+## 📚 PHẦN LÝ THUYẾT (25 phút)
+
+### Phần 1: Khái niệm biến số qua hoạt động không máy tính (15 phút)
 
 #### Hoạt động khởi động - "Hộp đựng đồ"
 - **Hoạt động**: Giáo viên cầm một hộp và hỏi: "Hộp này đựng gì?"
+- **Câu hỏi**: "Hộp có thể đựng những gì?"
+- **Kết nối**: "Hôm nay chúng ta sẽ học về 'hộp' đặc biệt trong máy tính"
 - **Mục tiêu**: Hiểu biến số như một "hộp" để chứa thông tin
-- **Kết quả**: Nhận ra biến số có thể chứa nhiều loại thông tin khác nhau
 
-#### Ví dụ biến số từ cuộc sống
-```
-Hộp điểm số: Có thể chứa 8, 9, 10...
-Hộp tên: Có thể chứa "An", "Bình", "Châu"...
-Hộp tuổi: Có thể chứa 8, 9, 10...
-Hộp màu sắc: Có thể chứa "đỏ", "xanh", "vàng"...
-```
+#### Khái niệm biến số qua ví dụ thực tế
+- **Hộp điểm số**: Có thể chứa 8, 9, 10...
+- **Hộp tên**: Có thể chứa "An", "Bình", "Châu"...
+- **Hộp tuổi**: Có thể chứa 8, 9, 10...
+- **Hộp màu sắc**: Có thể chứa "đỏ", "xanh", "vàng"...
 
-#### Khái niệm cơ bản
-- **Biến số**: Như một hộp để chứa thông tin
+#### Hoạt động thực hành - "Đếm số bạn trong lớp"
+- **Hoạt động**: Học sinh đếm số bạn nam và nữ trong lớp
+- **Mục tiêu**: Thực hành sử dụng biến số để đếm
+- **Quy tắc**: Đi từ đầu đến cuối lớp, đếm từng người một
+- **Kết quả**: Hiểu cách biến số giúp theo dõi thông tin
+
+#### Bài toán: Hiểu biến số
 - **Tên biến**: Nhãn dán trên hộp (ví dụ: "điểm", "tuổi")
 - **Giá trị**: Nội dung trong hộp (ví dụ: 8, "An")
 - **Thay đổi**: Có thể thay đổi nội dung trong hộp
+- **Ví dụ**: Hộp "điểm" có thể chứa 5, sau đó thay đổi thành 8
 
-#### Hoạt động thực hành - "Đếm số bạn trong lớp"
-- **Hoạt động**: Học sinh đếm số bạn nam và nữ
-- **Mục tiêu**: Thực hành sử dụng biến số để đếm
-- **Kết quả**: Hiểu cách biến số giúp theo dõi thông tin
+### Phần 2: Khái niệm đếm và tính toán qua hoạt động không máy tính (10 phút)
 
-### Phần 2: Tạo biến số trong Scratch (15 phút)
+#### Hoạt động không máy tính - "Đếm số lần vỗ tay"
+- **Hoạt động**: Học sinh vỗ tay và đếm số lần
+- **Mục tiêu**: Hiểu cách đếm và tăng giá trị
+- **Quy tắc**: Mỗi lần vỗ tay, tăng số đếm lên 1
+- **Kết quả**: Nhận ra đếm là tăng giá trị lên 1
 
-#### Bước 1: Tạo biến số đầu tiên
+#### Bài toán: Đếm số lần nhấn phím
+- **Mục tiêu**: Mỗi lần nhấn phím cách, tăng điểm số lên 1
+- **Ví dụ**: Nhấn 3 lần → điểm số = 3
+- **Ứng dụng**: Game đếm điểm, thống kê
+
+#### Hoạt động không máy tính - "Tính tổng điểm"
+- **Hoạt động**: Học sinh tính tổng điểm của 3 bài kiểm tra
+- **Mục tiêu**: Hiểu cách sử dụng biến số để tính toán
+- **Quy tắc**: Cộng từng điểm một vào tổng
+- **Kết quả**: Nhận ra biến số có thể dùng để tính toán
+
+## 💻 PHẦN THỰC HÀNH SCRATCH (20 phút)
+
+### Phần 3: Tạo biến số đầu tiên trên Scratch (10 phút)
+
+#### Lập trình trong Scratch với hướng dẫn từng bước
+```scratch
+# Bước 1: Tạo biến số đầu tiên
 1. Mở Scratch và tạo dự án mới
 2. Chọn "Variables" (Biến số) trong menu
 3. Nhấn "Make a Variable" (Tạo biến số)
 4. Đặt tên: "DiemSo"
 5. Chọn "For all sprites" (Cho tất cả nhân vật)
 
-#### Bước 2: Hiển thị biến số
-1. Kéo khối "show variable [DiemSo]" vào Scripts
-2. Nhấn cờ xanh để chạy
-3. Quan sát: Biến số xuất hiện trên màn hình với giá trị 0
-
-#### Bước 3: Thay đổi giá trị biến số
-```scratch
+# Bước 2: Hiển thị và thay đổi giá trị
 Khi cờ xanh được nhấn
 đặt [DiemSo v] thành (5)
 nói [Điểm số của tôi là: ] + [DiemSo v] trong (3) giây
 ```
 
-#### Hoạt động thực hành - "Thay đổi điểm số"
+#### Hoạt động mở rộng - "Thay đổi điểm số"
 - **Hoạt động**: Học sinh thay đổi giá trị biến số và quan sát
 - **Mục tiêu**: Hiểu cách thay đổi giá trị biến số
 - **Thử thách**: Thử các giá trị khác nhau (1, 10, 100)
 
-### Phần 3: Sử dụng biến số để đếm (20 phút)
+### Phần 4: Sử dụng biến số để đếm trên Scratch (10 phút)
 
-#### Bài toán: Đếm số lần nhấn phím
-- **Mục tiêu**: Mỗi lần nhấn phím cách, tăng điểm số lên 1
-- **Ví dụ**: Nhấn 3 lần → điểm số = 3
-
-#### Lập trình đếm cơ bản
+#### Lập trình trong Scratch với hiệu ứng trực quan
 ```scratch
+# Đếm số lần nhấn phím
 Khi cờ xanh được nhấn
 đặt [DiemSo v] thành (0)
 nói [Bắt đầu đếm! Nhấn phím cách để tăng điểm] trong (3) giây
@@ -92,15 +108,8 @@ nói [Bắt đầu đếm! Nhấn phím cách để tăng điểm] trong (3) gi�
 Khi nhấn phím [cách v]
 thay đổi [DiemSo v] bởi (1)
 nói [Điểm số: ] + [DiemSo v] trong (1) giây
-```
 
-#### Hoạt động mở rộng - "Đếm với nhiều phím"
-- **Hoạt động**: Tạo biến số cho từng phím (A, S, D)
-- **Mục tiêu**: Hiểu cách sử dụng nhiều biến số
-- **Thử thách**: Tạo game đếm điểm đơn giản
-
-#### Bài toán: Tính tổng điểm
-```scratch
+# Tính tổng điểm
 Khi cờ xanh được nhấn
 đặt [DiemSo v] thành (0)
 đặt [TongDiem v] thành (0)
@@ -111,6 +120,26 @@ thay đổi [DiemSo v] bởi (1)
 thay đổi [TongDiem v] bởi ([DiemSo v])
 nói [Điểm hiện tại: ] + [DiemSo v] + [. Tổng: ] + [TongDiem v] trong (2) giây
 ```
+
+#### Hoạt động mở rộng - "Đếm với nhiều phím"
+- **Hoạt động**: Tạo biến số cho từng phím (A, S, D)
+- **Mục tiêu**: Hiểu cách sử dụng nhiều biến số
+- **Thử thách**: Tạo game đếm điểm đơn giản
+
+## 🎯 Tổng kết và đánh giá (10 phút)
+
+### Tổng kết kiến thức
+- **Biến số**: Như một hộp để chứa thông tin
+- **Tên biến**: Nhãn dán trên hộp để phân biệt
+- **Giá trị**: Nội dung trong hộp có thể thay đổi
+- **Đếm**: Tăng giá trị biến số lên 1
+- **Tính toán**: Sử dụng biến số trong phép toán
+
+### Đánh giá học sinh
+- **Hiểu biến số**: Có thể giải thích khái niệm biến số
+- **Tạo biến số**: Tạo được biến số trong Scratch
+- **Sử dụng đúng**: Sử dụng biến số để đếm và tính toán
+- **Tư duy logic**: Hiểu được cách biến số hoạt động
 
 ## 🎨 Hoạt động mở rộng
 
@@ -141,76 +170,24 @@ nói [Điểm hiện tại: ] + [DiemSo v] + [. Tổng: ] + [TongDiem v] trong (
 2. **Máy tính đơn giản**: Tạo máy tính cộng trừ đơn giản
 3. **Thống kê**: Đếm số học sinh nam và nữ trong lớp
 
-## 🔍 Đánh giá
+### Bài tập sáng tạo
+1. **Game điểm số**: Tạo game đếm điểm với nhiều tính năng
+2. **Máy tính cá nhân**: Tạo máy tính với giao diện đẹp
+3. **Dự án tích hợp**: Kết hợp biến số với các bài học trước
 
-### Tiêu chí đánh giá
-| Tiêu chí | Điểm | Mô tả |
-|----------|------|-------|
-| Hiểu biến số | 3 | Giải thích được khái niệm biến số |
-| Sử dụng đúng | 3 | Tạo và sử dụng biến số chính xác |
-| Ứng dụng | 2 | Áp dụng biến số vào bài toán |
-| Sáng tạo | 1 | Có yếu tố độc đáo |
-| Trình bày | 1 | Giải thích rõ ràng |
-| **Tổng cộng** | **10** | |
+## 🔧 Tài nguyên hỗ trợ
 
-### Cách đánh giá
-- **Quan sát**: Giáo viên quan sát quá trình học
-- **Sản phẩm**: Kiểm tra chương trình hoàn chỉnh
-- **Trình bày**: Học sinh giải thích cách sử dụng biến số
-- **Phản hồi**: Nhận xét từ bạn cùng lớp
+### Tài liệu tham khảo
+- **Scratch Variables Tutorial**: Hướng dẫn sử dụng biến số
+- **Teaching Variables to Kids**: Phương pháp dạy biến số cho trẻ em
+- **Scratch Programming for Kids**: Lập trình Scratch cho trẻ em
 
-## 🚀 Lưu ý quan trọng
+### Công cụ hỗ trợ
+- **Scratch Editor**: Môi trường lập trình trực quan
+- **Variable Blocks**: Khối lệnh biến số trong Scratch
+- **Debugging Tools**: Công cụ gỡ lỗi và kiểm tra giá trị
 
-### Cho giáo viên
-- Sử dụng ví dụ cụ thể từ cuộc sống
-- Khuyến khích học sinh thử nghiệm với các giá trị khác nhau
-- Tạo không khí học tập vui vẻ
-- Chuẩn bị nhiều ví dụ thực tế
-
-### Cho học sinh
-- Hiểu biến số như một "hộp" chứa thông tin
-- Thử nghiệm với các giá trị khác nhau
-- Không ngại thử nghiệm và sai lầm
-- Lưu dự án thường xuyên
-
-## 💡 Mẹo hay
-
-### Sử dụng biến số hiệu quả
-- **Đặt tên có ý nghĩa**: Sử dụng tên dễ hiểu (DiemSo, Tuoi, Ten)
-- **Khởi tạo giá trị**: Luôn đặt giá trị ban đầu cho biến số
-- **Hiển thị giá trị**: Sử dụng "say" để theo dõi giá trị biến số
-
-### Debug hiệu quả
-- **Sử dụng "say"**: Thêm lệnh nói để theo dõi giá trị biến số
-- **Kiểm tra từng bước**: Debug từng phần một thay vì toàn bộ
-- **Test với các giá trị**: Kiểm tra với các giá trị khác nhau
-
-### Tối ưu hóa
-- **Sử dụng biến số chung**: Tạo biến số cho tất cả nhân vật khi cần
-- **Đặt tên ngắn gọn**: Sử dụng tên ngắn nhưng dễ hiểu
-- **Tránh tạo quá nhiều**: Chỉ tạo biến số khi thực sự cần thiết
-
-## 🔗 Chuẩn bị cho bài tiếp theo
-
-### Bài 3: Trò chơi "Bảo vệ đảo"
-- Sử dụng biến số để tạo hệ thống điểm
-- Quản lý nhiều biến số cùng lúc
-- Tạo game logic với biến số
-
-### Kết nối với các bài trước
-- **Bài 1**: Chuyển động cơ bản
-- **Bài 2**: Giao diện và hiệu ứng
-- **Bài 2.5**: Biến số cơ bản ← Bài này
-- **Bài 3**: Game phức tạp với biến số
-
-## 📚 Tài liệu tham khảo
-
-- [Scratch Variables Tutorial](https://scratch.mit.edu/tutorials)
-- [Teaching Variables to Kids](https://www.education.com/lesson-plan/variables/)
-- [Scratch Programming for Kids](https://scratch.mit.edu/explore/projects/variables)
-
----
-
-**Tác giả**: AI & Trần Việt Trung (BKHN)  
-**Ngày tạo**: 04/10/2025  
-**Phiên bản**: 1.0
+### Đánh giá và phản hồi
+- **Rubric đánh giá**: Tiêu chí đánh giá kỹ năng sử dụng biến số
+- **Peer Review**: Đánh giá lẫn nhau giữa học sinh
+- **Portfolio**: Tập hợp các dự án và bài tập của học sinh

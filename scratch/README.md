@@ -53,25 +53,25 @@ Phần này chứa 8 bài giảng Scratch dành cho học sinh tiểu học (l�
 - **Kỹ năng**: Tạo câu chuyện tương tác, quản lý scene, thiết kế UX
 - **Thời gian**: 90 phút
 
-### 🧠 **Bài 6A-8: Tư duy lập trình nâng cao**
+### 🧠 **Bài 6-8: Tư duy lập trình nâng cao**
 
-#### **Bài 6A: Thuật toán cơ bản**
-- **Mục tiêu**: Hiểu khái niệm thuật toán và học sắp xếp, tìm kiếm cơ bản
-- **Kiến thức**: Thuật toán, sắp xếp Bubble Sort, tìm kiếm tuyến tính
-- **Kỹ năng**: Phân tích vấn đề, thiết kế thuật toán, debug code
-- **Thời gian**: 90 phút
-
-#### **Bài 6B: Thuật toán nâng cao**
-- **Mục tiêu**: Học thuật toán đếm, thống kê và tính toán
-- **Kiến thức**: Thuật toán đếm, tính tổng, tích hợp nhiều thuật toán
-- **Kỹ năng**: Thiết kế thuật toán phức tạp, tích hợp hệ thống
-- **Thời gian**: 90 phút
-
-#### **Bài 7: Cấu trúc dữ liệu**
+#### **Bài 6: Cấu trúc dữ liệu cơ bản**
 - **Mục tiêu**: Học về danh sách và tổ chức thông tin
 - **Kiến thức**: List, array, tổ chức dữ liệu
 - **Kỹ năng**: Quản lý danh sách, tìm kiếm, sắp xếp
-- **Thời gian**: 120 phút
+- **Thời gian**: 90 phút
+
+#### **Bài 7A: Thuật toán cơ bản**
+- **Mục tiêu**: Hiểu khái niệm thuật toán và học tìm số lớn nhất, đếm
+- **Kiến thức**: Thuật toán, tìm max, đếm, sắp xếp đơn giản
+- **Kỹ năng**: Phân tích vấn đề, thiết kế thuật toán, debug code
+- **Thời gian**: 90 phút
+
+#### **Bài 7B: Thuật toán nâng cao**
+- **Mục tiêu**: Học thuật toán tính toán và tích hợp
+- **Kiến thức**: Tính tổng, tính trung bình, tích hợp nhiều thuật toán
+- **Kỹ năng**: Thiết kế thuật toán phức tạp, tích hợp hệ thống
+- **Thời gian**: 90 phút
 
 #### **Bài 8: Hàm và thủ tục**
 - **Mục tiêu**: Chuẩn bị cho lập trình modular
@@ -85,7 +85,7 @@ Phần này chứa 8 bài giảng Scratch dành cho học sinh tiểu học (l�
 |---------|---------|--------|-----------|
 | **8-9 tuổi** | Bài 1-2.5 | Cơ bản | 45-60 phút/bài |
 | **9-10 tuổi** | Bài 3-5 | Trung bình | 90-120 phút/bài |
-| **10-11 tuổi** | Bài 6A-8 | Nâng cao | 90 phút/bài |
+| **10-11 tuổi** | Bài 6-8 | Nâng cao | 90 phút/bài |
 
 ## 🛠️ Công cụ cần thiết
 

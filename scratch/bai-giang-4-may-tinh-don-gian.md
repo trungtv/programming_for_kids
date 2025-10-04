@@ -1,9 +1,9 @@
-# Bài Giảng 4: Máy Tính Đơn Giản
+# Bài giảng 4: Máy tính đơn giản
 
 ## 📋 Thông tin bài học
-- **Thời gian**: 90 phút (2 tiết)
-- **Độ tuổi**: Lớp 4-5 (9-11 tuổi)
-- **Mức độ**: Trung bình
+- **Thời gian**: 90 phút
+- **Độ tuổi**: 9-11 tuổi
+- **Trình độ**: Trung bình
 - **Mục tiêu**: Tạo máy tính đơn giản với các phép toán cơ bản
 
 ## 🎯 Mục tiêu học tập
@@ -23,221 +23,209 @@
 - Rèn luyện tính chính xác
 - Khuyến khích ứng dụng thực tế
 
+## 🧠 Nội dung bài học
 
-## 🧮 Nội dung bài học
+## 📚 PHẦN LÝ THUYẾT (45 phút)
 
-### Phần 1: Giới thiệu và thiết kế (15 phút)
+### Phần 1: Khái niệm máy tính qua hoạt động không máy tính (25 phút)
 
-#### Hoạt động khởi động
-- Cho học sinh xem máy tính thật và hỏi: "Máy tính hoạt động như thế nào?"
-- Giải thích mục tiêu: Tạo máy tính đơn giản bằng Scratch
-- Thảo luận: "Các phép toán nào cần có trong máy tính?"
+#### Hoạt động khởi động - "Máy tính thật"
+- **Hoạt động**: Học sinh quan sát máy tính thật và thảo luận
+- **Câu hỏi**: "Máy tính hoạt động như thế nào?"
+- **Kết nối**: "Hôm nay chúng ta sẽ tạo máy tính đơn giản bằng Scratch"
+- **Mục tiêu**: Hiểu chức năng cơ bản của máy tính
 
-#### Thiết kế giao diện
+#### Khái niệm máy tính qua ví dụ thực tế
+- **Input**: Dữ liệu đầu vào (số, phép toán)
+- **Process**: Xử lý tính toán
+- **Output**: Kết quả đầu ra
+- **Giao diện**: Màn hình hiển thị và nút bấm
+
+#### Hoạt động thực hành - "Thiết kế máy tính trên giấy"
+- **Hoạt động**: Học sinh vẽ phác thảo máy tính trên giấy
+- **Yêu cầu**: Có màn hình hiển thị, nút số 0-9, nút phép toán
+- **Mục tiêu**: Có ý tưởng thiết kế trước khi làm trên Scratch
+- **Kết quả**: Hiểu các thành phần cần thiết của máy tính
+
+### Phần 2: Khái niệm phép toán qua hoạt động không máy tính (20 phút)
+
+#### Hoạt động không máy tính - "Tính toán bằng tay"
+- **Hoạt động**: Học sinh tính toán các phép toán cơ bản
+- **Phép cộng**: 5 + 3 = 8
+- **Phép trừ**: 10 - 4 = 6
+- **Phép nhân**: 2 × 3 = 6
+- **Phép chia**: 8 ÷ 2 = 4
+- **Mục tiêu**: Hiểu cách thực hiện các phép toán
+
+#### Bài toán: Thiết kế máy tính đơn giản
 - **Màn hình hiển thị**: Hiển thị số và kết quả
-- **Nút số**: 0-9
-- **Nút phép toán**: +, -, ×, ÷
-- **Nút đặc biệt**: =, C (xóa)
+- **Nút số**: 0-9 để nhập số
+- **Nút phép toán**: +, -, ×, ÷ để chọn phép toán
+- **Nút đặc biệt**: = để tính kết quả, C để xóa
 
-### Phần 2: Tạo giao diện máy tính (20 phút)
+#### Hoạt động không máy tính - "Lập kế hoạch lập trình"
+- **Hoạt động**: Học sinh viết các bước để tạo máy tính
+- **Bước 1**: Tạo hình nền và màn hình hiển thị
+- **Bước 2**: Tạo nút số và nút phép toán
+- **Bước 3**: Lập trình logic tính toán
+- **Bước 4**: Thêm nút đặc biệt (=, C)
+- **Bước 5**: Test và debug
 
-#### Bước 1: Tạo hình nền
+## 💻 PHẦN THỰC HÀNH SCRATCH (45 phút)
+
+### Phần 3: Tạo giao diện máy tính trên Scratch (15 phút)
+
+#### Lập trình trong Scratch với hướng dẫn từng bước
+```scratch
+# Bước 1: Tạo hình nền
 1. Chọn "Choose a Backdrop" → "Other" → chọn màu xám
 2. Hoặc vẽ hình nền đơn giản
 
-#### Bước 2: Tạo màn hình hiển thị
+# Bước 2: Tạo màn hình hiển thị
 1. Chọn "Choose a Sprite" → "Things" → chọn hình chữ nhật
 2. Đặt tên: "ManHinh"
-3. Điều chỉnh kích thước và màu sắc
-4. Thêm văn bản "0" làm giá trị mặc định
+3. Đặt ở trên cùng màn hình
+4. Điều chỉnh kích thước phù hợp
 
-#### Bước 3: Tạo các nút số
-1. Tạo sprite cho nút số 0-9
-2. Đặt tên: "Nut0", "Nut1", ..., "Nut9"
-3. Sắp xếp thành bàn phím số
+# Bước 3: Tạo nút số
+1. Chọn "Choose a Sprite" → "Things" → chọn hình tròn
+2. Đặt tên: "NutSo"
+3. Tạo nhiều nút cho số 0-9
+4. Đặt ở giữa màn hình
+```
 
-#### Bước 4: Tạo các nút phép toán
-1. Tạo sprite cho +, -, ×, ÷
-2. Đặt tên: "Cong", "Tru", "Nhan", "Chia"
-3. Đặt màu sắc khác biệt
+#### Hoạt động mở rộng - "Tùy chỉnh giao diện"
+- **Hoạt động**: Thay đổi màu sắc và kích thước nút
+- **Mục tiêu**: Hiểu cách tùy chỉnh giao diện
+- **Thử thách**: Tạo giao diện đẹp mắt
 
-### Phần 3: Lập trình logic tính toán (25 phút)
+### Phần 4: Lập trình logic tính toán (20 phút)
 
-#### Bước 1: Tạo biến số
+#### Lập trình trong Scratch với hiệu ứng trực quan
+```scratch
+# Tạo biến số
 1. Chọn "Variables" → "Make a Variable"
-2. Tạo các biến:
-   - "SoHienTai": Số đang hiển thị
-   - "SoThuNhat": Số đầu tiên
-   - "PhepToan": Phép toán được chọn
-   - "KetQua": Kết quả tính toán
+2. Đặt tên: "So1", "So2", "PhepToan", "KetQua"
 
-#### Bước 2: Lập trình nút số
-```scratch
-Khi nhấn phím [0 v]
-nếu <[SoHienTai v] = [0]> thì
-đặt [SoHienTai v] thành (0)
+# Lập trình nút số
+Khi nhấn [NutSo v]
+nếu <[PhepToan v] = [0]> thì
+  đặt [So1 v] thành ([So1 v] * 10 + [số của nút])
+  nói [So1 v] trong (1) giây
 nếu không
-đặt [SoHienTai v] thành (join [SoHienTai v] [0])
-```
+  đặt [So2 v] thành ([So2 v] * 10 + [số của nút])
+  nói [So2 v] trong (1) giây
 
-#### Bước 3: Lập trình nút phép toán
-```scratch
-Khi nhấn phím [+] v
-đặt [SoThuNhat v] thành [SoHienTai v]
-đặt [PhepToan v] thành [+]
-đặt [SoHienTai v] thành [0]
-```
+# Lập trình nút phép toán
+Khi nhấn [NutPhepToan v]
+đặt [PhepToan v] thành [phép toán tương ứng]
+nói [PhepToan v] trong (1) giây
 
-#### Bước 4: Lập trình nút bằng
-```scratch
-Khi nhấn phím [= v]
+# Lập trình nút bằng
+Khi nhấn [NutBang v]
 nếu <[PhepToan v] = [+]> thì
-đặt [KetQua v] thành ([SoThuNhat v] + [SoHienTai v])
+  đặt [KetQua v] thành ([So1 v] + [So2 v])
 nếu <[PhepToan v] = [-]> thì
-đặt [KetQua v] thành ([SoThuNhat v] - [SoHienTai v])
+  đặt [KetQua v] thành ([So1 v] - [So2 v])
 nếu <[PhepToan v] = [×]> thì
-đặt [KetQua v] thành ([SoThuNhat v] * [SoHienTai v])
+  đặt [KetQua v] thành ([So1 v] * [So2 v])
 nếu <[PhepToan v] = [÷]> thì
-đặt [KetQua v] thành ([SoThuNhat v] / [SoHienTai v])
-đặt [SoHienTai v] thành [KetQua v]
+  đặt [KetQua v] thành ([So1 v] / [So2 v])
+nói [KetQua v] trong (2) giây
 ```
 
-#### Bước 5: Lập trình nút xóa
+#### Hoạt động mở rộng - "Thêm phép toán khác"
+- **Hoạt động**: Thêm phép toán bình phương, căn bậc hai
+- **Mục tiêu**: Hiểu cách mở rộng chức năng máy tính
+- **Thử thách**: Tạo máy tính khoa học đơn giản
+
+### Phần 5: Thêm nút đặc biệt và hoàn thiện (10 phút)
+
+#### Lập trình trong Scratch với hiệu ứng trực quan
 ```scratch
-Khi nhấn phím [C v]
-đặt [SoHienTai v] thành [0]
-đặt [SoThuNhat v] thành [0]
-đặt [PhepToan v] thành []
+# Nút xóa (C)
+Khi nhấn [NutXoa v]
+đặt [So1 v] thành (0)
+đặt [So2 v] thành (0)
+đặt [PhepToan v] thành (0)
+đặt [KetQua v] thành (0)
+nói [Đã xóa] trong (1) giây
+
+# Nút xóa tất cả
+Khi nhấn [NutXoaTatCa v]
+đặt [So1 v] thành (0)
+đặt [So2 v] thành (0)
+đặt [PhepToan v] thành (0)
+đặt [KetQua v] thành (0)
+nói [Đã xóa tất cả] trong (1) giây
 ```
 
-### Phần 4: Cải thiện giao diện (5 phút)
+#### Hoạt động mở rộng - "Thêm tính năng đặc biệt"
+- **Hoạt động**: Thêm nút lưu kết quả, nút nhớ
+- **Mục tiêu**: Hiểu cách tạo tính năng nâng cao
+- **Thử thách**: Tạo máy tính có lịch sử tính toán
 
-#### Bước 1: Cập nhật màn hình
-```scratch
-Khi cờ xanh được nhấn
-lặp lại mãi mãi
-nói [SoHienTai v]
-```
+## 🎯 Tổng kết và đánh giá (10 phút)
 
-#### Bước 2: Thêm hiệu ứng nhấn nút
-```scratch
-Khi nhấn phím [0 v]
-thay đổi kích thước bởi (-10)
-chờ (0.1) giây
-thay đổi kích thước bởi (10)
-```
+### Tổng kết kiến thức
+- **Máy tính**: Thiết bị xử lý dữ liệu đầu vào và tạo kết quả
+- **Giao diện**: Màn hình hiển thị và nút bấm
+- **Logic tính toán**: Sử dụng biến số và phép toán
+- **Input/Output**: Dữ liệu đầu vào và kết quả đầu ra
 
-#### Bước 3: Thêm âm thanh
-```scratch
-Khi nhấn phím [0 v]
-phát âm thanh [pop v]
-```
-
-### Phần 5: Thêm tính năng nâng cao (5 phút)
-
-#### Bước 1: Xử lý lỗi chia cho 0
-```scratch
-Khi nhấn phím [= v]
-nếu <[PhepToan v] = [÷]> và <[SoHienTai v] = [0]> thì
-nói [Lỗi: Chia cho 0!] trong (2) giây
-nếu không
-[thực hiện phép chia bình thường]
-```
-
-#### Bước 2: Thêm phép toán phần trăm
-```scratch
-Khi nhấn phím [% v]
-đặt [KetQua v] thành ([SoHienTai v] / [100])
-đặt [SoHienTai v] thành [KetQua v]
-```
+### Đánh giá học sinh
+- **Tạo giao diện**: Tạo được giao diện máy tính đẹp mắt
+- **Lập trình logic**: Lập trình được logic tính toán
+- **Xử lý dữ liệu**: Xử lý được dữ liệu đầu vào
+- **Tư duy logic**: Hiểu được cách máy tính hoạt động
 
 ## 🎨 Hoạt động mở rộng
 
 ### Cấp độ 1: Thêm tính năng cơ bản
-- Thêm nút dấu chấm thập phân
-- Thêm nút đổi dấu (+/-)
-- Thêm lịch sử tính toán
+- **Nhiều phép toán**: Thêm phép toán bình phương, căn bậc hai
+- **Âm thanh**: Thêm âm thanh khi nhấn nút
+- **Hiệu ứng**: Thêm animation khi tính toán
 
 ### Cấp độ 2: Tính năng nâng cao
-- Thêm phép toán lũy thừa
-- Thêm phép toán căn bậc hai
-- Thêm bộ nhớ (M+, M-, MR, MC)
+- **Máy tính khoa học**: Thêm các hàm toán học
+- **Lịch sử**: Lưu lịch sử tính toán
+- **Nút nhớ**: Thêm nút nhớ kết quả
 
 ### Cấp độ 3: Sáng tạo
-- Tạo máy tính khoa học
-- Thêm chế độ đổi đơn vị
-- Tạo máy tính chuyên dụng
+- **Máy tính cá nhân**: Tạo máy tính với giao diện riêng
+- **Ứng dụng thực tế**: Tạo máy tính cho mục đích cụ thể
+- **Chia sẻ**: Chia sẻ máy tính với bạn bè
 
 ## 📝 Bài tập về nhà
 
 ### Bài tập bắt buộc
-1. Hoàn thành máy tính cơ bản với 4 phép toán
-2. Thêm xử lý lỗi chia cho 0
-3. Test máy tính với các phép toán khác nhau
+1. **Hoàn thành máy tính**: Tạo máy tính đơn giản hoàn chỉnh
+2. **Thêm âm thanh**: Thêm âm thanh khi nhấn nút
+3. **Tùy chỉnh**: Thay đổi màu sắc và kích thước nút
 
 ### Bài tập nâng cao
-1. Thêm phép toán phần trăm
-2. Tạo giao diện đẹp hơn
-3. Thêm âm thanh và hiệu ứng
+1. **Máy tính khoa học**: Thêm các hàm toán học
+2. **Lịch sử**: Lưu lịch sử tính toán
+3. **Nút nhớ**: Thêm nút nhớ kết quả
 
-## 🔍 Đánh giá
+### Bài tập sáng tạo
+1. **Máy tính cá nhân**: Tạo máy tính với giao diện riêng
+2. **Ứng dụng thực tế**: Tạo máy tính cho mục đích cụ thể
+3. **Chia sẻ**: Chia sẻ máy tính với bạn bè và gia đình
 
-### Tiêu chí đánh giá
-| Tiêu chí | Điểm | Mô tả |
-|----------|------|-------|
-| Tính toán đúng | 4 | Tất cả phép toán hoạt động chính xác |
-| Giao diện | 2 | Giao diện rõ ràng, dễ sử dụng |
-| Xử lý lỗi | 2 | Xử lý được các trường hợp lỗi |
-| Sáng tạo | 1 | Có tính năng độc đáo |
-| Trình bày | 1 | Demo mượt mà, giải thích rõ ràng |
-| Tổng cộng | 10 | |
+## 🔧 Tài nguyên hỗ trợ
 
-### Cách đánh giá
-- **Test tính toán**: Kiểm tra độ chính xác
-- **Quan sát**: Giáo viên quan sát quá trình lập trình
-- **Sản phẩm**: Kiểm tra máy tính hoàn chỉnh
-- **Trình bày**: Học sinh demo và giải thích
+### Tài liệu tham khảo
+- **Scratch Calculator Tutorial**: Hướng dẫn tạo máy tính
+- **Math Operations**: Các phép toán cơ bản
+- **User Interface Design**: Thiết kế giao diện người dùng
 
-## 🚀 Lưu ý quan trọng
+### Công cụ hỗ trợ
+- **Scratch Editor**: Môi trường lập trình trực quan
+- **Math Blocks**: Khối lệnh toán học trong Scratch
+- **Variable Blocks**: Khối lệnh biến số
 
-### Cho giáo viên
-- Giải thích kỹ logic tính toán
-- Hướng dẫn cách test từng phép toán
-- Khuyến khích học sinh thử nghiệm
-- Chuẩn bị sẵn test cases
-
-### Cho học sinh
-- Hiểu rõ logic từng phép toán
-- Test kỹ từng tính năng
-- Không ngại thử nghiệm tính năng mới
-- Lưu dự án thường xuyên
-
-## 💡 Mẹo hay
-
-### Logic tính toán
-- Luôn kiểm tra điều kiện trước khi tính
-- Sử dụng biến để lưu trữ trạng thái
-- Xử lý tất cả các trường hợp có thể
-
-### Giao diện thân thiện
-- Sử dụng màu sắc rõ ràng
-- Sắp xếp nút hợp lý
-- Thêm hiệu ứng phản hồi
-
-### Test hiệu quả
-- Test với số nhỏ trước
-- Test với số âm
-- Test với số thập phân
-- Test các trường hợp lỗi
-
-## 📚 Tài liệu tham khảo
-
-- [Scratch Math Projects](https://scratch.mit.edu/explore/projects/math)
-- [Scratch Variables Tutorial](https://scratch.mit.edu/tutorials)
-- [Calculator Design Principles](https://scratch.mit.edu/studios/104)
-
----
-
-**Tác giả**: AI & Trần Việt Trung (BKHN)  
-**Ngày tạo**: 04/10/2025  
-**Phiên bản**: 1.0
+### Đánh giá và phản hồi
+- **Rubric đánh giá**: Tiêu chí đánh giá máy tính Scratch
+- **Peer Review**: Đánh giá lẫn nhau giữa học sinh
+- **Portfolio**: Tập hợp các dự án và bài tập của học sinh

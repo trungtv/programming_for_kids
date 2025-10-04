@@ -26,10 +26,10 @@
 - **Bài 4**: Máy tính đơn giản - Học về biến số và logic tính toán
 - **Bài 5**: Câu chuyện tương tác - Phát triển kỹ năng storytelling và broadcast
 
-#### **Bài 6A-8: Tư duy lập trình nâng cao**
-- **Bài 6A**: Thuật toán cơ bản - Sắp xếp và tìm kiếm
-- **Bài 6B**: Thuật toán nâng cao - Đếm, thống kê và tính toán
-- **Bài 7**: Cấu trúc dữ liệu - Học về danh sách và tổ chức thông tin
+#### **Bài 6-8: Tư duy lập trình nâng cao**
+- **Bài 6**: Cấu trúc dữ liệu cơ bản - Danh sách và mảng
+- **Bài 7A**: Thuật toán cơ bản - Tìm số lớn nhất và đếm
+- **Bài 7B**: Thuật toán nâng cao - Tính toán và tích hợp
 - **Bài 8**: Hàm và thủ tục - Chuẩn bị cho lập trình modular
 
 ### 🐍 **Phần Python (Bài 9-10)**
@@ -53,7 +53,7 @@
 |---------|---------|--------|
 | **8-9 tuổi** | Bài 1-2.5 | Cơ bản |
 | **9-10 tuổi** | Bài 3-5 | Trung bình |
-| **10-11 tuổi** | Bài 6A-10 | Nâng cao |
+| **10-11 tuổi** | Bài 6-10 | Nâng cao |
 
 ## 🛠️ Công cụ cần thiết
 
@@ -72,7 +72,7 @@
 
 ### Cho học sinh:
 1. **Bắt đầu với Scratch** - Làm quen với tư duy lập trình
-2. **Hoàn thành 10 bài Scratch** (bao gồm 2.5, 6A và 6B) trước khi chuyển sang Python
+2. **Hoàn thành 10 bài Scratch** (bao gồm 2.5, 6, 7A và 7B) trước khi chuyển sang Python
 3. **Làm theo hướng dẫn** từng bước trong mỗi bài
 4. **Thực hành** các bài tập và ví dụ
 5. **Sáng tạo** và thêm tính năng riêng

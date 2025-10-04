@@ -1,4 +1,4 @@
-# Bài Giảng 7: Cấu Trúc Dữ Liệu Cơ Bản
+# Bài giảng 6: Cấu trúc dữ liệu cơ bản
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 90 phút (2 tiết)

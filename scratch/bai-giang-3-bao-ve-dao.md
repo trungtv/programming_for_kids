@@ -1,9 +1,9 @@
-# Bài Giảng 3: Trò Chơi "Bảo Vệ Đảo"
+# Bài giảng 3: Trò chơi "Bảo vệ đảo"
 
 ## 📋 Thông tin bài học
-- **Thời gian**: 120 phút (3 tiết)
-- **Độ tuổi**: Lớp 5 (10-11 tuổi)
-- **Mức độ**: Trung bình đến nâng cao
+- **Thời gian**: 120 phút
+- **Độ tuổi**: 10-11 tuổi
+- **Trình độ**: Trung bình đến nâng cao
 - **Mục tiêu**: Tạo trò chơi phòng thủ với hệ thống điểm số và level
 
 ## 🎯 Mục tiêu học tập
@@ -23,228 +23,223 @@
 - Rèn luyện tính kiên trì
 - Khuyến khích sáng tạo và cải tiến
 
+## 🧠 Nội dung bài học
 
-## 🎮 Nội dung bài học
+## 📚 PHẦN LÝ THUYẾT (60 phút)
 
-### Phần 1: Giới thiệu và thiết kế game (20 phút)
+### Phần 1: Khái niệm trò chơi phòng thủ qua hoạt động không máy tính (30 phút)
 
-#### Hoạt động khởi động
-- Cho học sinh xem video trò chơi "Bảo vệ đảo" hoàn chỉnh
-- Hỏi: "Các em đã chơi trò chơi phòng thủ chưa?"
-- Giải thích mục tiêu: Tạo trò chơi bảo vệ đảo khỏi kẻ thù
+#### Hoạt động khởi động - "Trò chơi bảo vệ thành"
+- **Hoạt động**: Học sinh chơi trò chơi bảo vệ thành trong lớp
+- **Quy tắc**: Một nhóm bảo vệ, một nhóm tấn công
+- **Mục tiêu**: Hiểu khái niệm phòng thủ và tấn công
+- **Kết quả**: Nhận ra trò chơi cần có mục tiêu, luật chơi và hệ thống điểm
 
-#### Thiết kế game
-- **Luật chơi**: Bảo vệ đảo khỏi tàu địch
-- **Cách chơi**: Nhấn chuột để bắn đạn
+#### Khái niệm trò chơi phòng thủ qua ví dụ thực tế
+- **Mục tiêu**: Bảo vệ một vị trí khỏi kẻ thù
+- **Cách chơi**: Sử dụng vũ khí để tiêu diệt kẻ thù
+- **Hệ thống điểm**: Điểm số dựa trên số kẻ thù tiêu diệt
+- **Level**: Độ khó tăng dần theo thời gian
+
+#### Hoạt động thực hành - "Thiết kế trò chơi trên giấy"
+- **Hoạt động**: Học sinh vẽ phác thảo trò chơi bảo vệ đảo
+- **Yêu cầu**: Có đảo, tàu địch, đạn, hệ thống điểm
+- **Mục tiêu**: Có ý tưởng thiết kế trước khi làm trên Scratch
+- **Kết quả**: Hiểu các thành phần cần thiết của trò chơi phòng thủ
+
+### Phần 2: Khái niệm clone và quản lý đối tượng qua hoạt động không máy tính (30 phút)
+
+#### Hoạt động không máy tính - "Tạo nhiều tàu địch"
+- **Hoạt động**: Học sinh đóng vai tàu địch, xuất hiện từng người một
+- **Mục tiêu**: Hiểu khái niệm tạo nhiều đối tượng giống nhau
+- **Quy tắc**: Mỗi người di chuyển độc lập, có tốc độ khác nhau
+- **Kết quả**: Nhận ra cần quản lý nhiều đối tượng cùng lúc
+
+#### Bài toán: Thiết kế trò chơi "Bảo vệ đảo"
+- **Nhân vật**: Đảo (cố định), tàu địch (di chuyển), đạn (bắn)
+- **Hệ thống**: Điểm số, level, thời gian
+- **Tương tác**: Nhấn chuột để bắn đạn
 - **Mục tiêu**: Tiêu diệt tàu địch, không để chúng đến đảo
-- **Hệ thống điểm**: +10 điểm mỗi tàu bị tiêu diệt
 
-### Phần 2: Tạo hình nền và đảo (15 phút)
+#### Hoạt động không máy tính - "Lập kế hoạch lập trình"
+- **Hoạt động**: Học sinh viết các bước để tạo trò chơi
+- **Bước 1**: Tạo hình nền biển và đảo
+- **Bước 2**: Tạo tàu địch và lập trình di chuyển
+- **Bước 3**: Tạo đạn và lập trình bắn
+- **Bước 4**: Tạo hệ thống điểm và level
+- **Bước 5**: Thêm điều kiện thắng/thua
 
-#### Bước 1: Tạo hình nền
+## 💻 PHẦN THỰC HÀNH SCRATCH (60 phút)
+
+### Phần 3: Tạo hình nền và đảo trên Scratch (15 phút)
+
+#### Lập trình trong Scratch với hướng dẫn từng bước
+```scratch
+# Bước 1: Tạo hình nền
 1. Chọn "Choose a Backdrop" → "Nature" → chọn biển
 2. Hoặc vẽ hình nền biển đơn giản
 
-#### Bước 2: Tạo đảo
+# Bước 2: Tạo đảo
 1. Chọn "Choose a Sprite" → "Nature" → chọn đảo
 2. Đặt tên: "Dao"
 3. Đặt ở giữa màn hình
-4. Thêm hiệu ứng bảo vệ
-
-### Phần 3: Tạo hệ thống bắn đạn (20 phút)
-
-#### Bước 1: Tạo đạn pháo
-1. Chọn "Choose a Sprite" → "Things" → chọn đạn
-2. Đặt tên: "Dan"
-3. Thu nhỏ kích thước
-
-#### Bước 2: Lập trình bắn đạn
-```scratch
-Khi nhấn phím [space v]
-tạo bản sao của [Dan v]
-
-Khi tôi là bản sao
-đi tới [Dao v]
-hướng về phía [con trỏ chuột v]
-lặp lại cho đến khi <chạm [cạnh v]?>
-di chuyển (15) bước
+4. Điều chỉnh kích thước phù hợp
 ```
 
-#### Bước 3: Thêm âm thanh bắn
+#### Hoạt động mở rộng - "Tùy chỉnh đảo"
+- **Hoạt động**: Thay đổi màu sắc và kích thước đảo
+- **Mục tiêu**: Hiểu cách tùy chỉnh nhân vật
+- **Thử thách**: Tạo đảo có nhiều màu sắc
+
+### Phần 4: Tạo tàu địch và hệ thống clone (20 phút)
+
+#### Lập trình trong Scratch với hiệu ứng trực quan
 ```scratch
-Khi nhấn phím [space v]
-phát âm thanh [laser v]
-```
-
-### Phần 4: Tạo tàu địch (25 phút)
-
-#### Bước 1: Tạo tàu địch
+# Tạo tàu địch
 1. Chọn "Choose a Sprite" → "Transportation" → chọn tàu
 2. Đặt tên: "TauDich"
-3. Điều chỉnh kích thước phù hợp
+3. Đặt ở cạnh trái màn hình
 
-#### Bước 2: Lập trình tàu địch
-```scratch
-Khi nhấn phím [s v]
+# Lập trình di chuyển tàu địch
+Khi cờ xanh được nhấn
+ẩn
+chờ (2) giây
 tạo bản sao của [TauDich v]
 
 Khi tôi là bản sao
-đi tới [cạnh trái v]
+hiện
+đặt x thành (-240)
+đặt y thành (số ngẫu nhiên từ (-180) đến (180))
 hướng về phía (90 vòng độ)
-lặp lại cho đến khi <chạm [Dao v]?> hoặc <chạm [Dan v]?>
-di chuyển (3) bước
-```
-
-#### Bước 3: Xử lý khi tàu bị tiêu diệt
-```scratch
-Khi tôi là bản sao
-nếu <chạm [Dan v]?> thì
-phát âm thanh [explosion v]
-thay đổi [DiemSo v] bởi (10)
+lặp lại (50) lần
+  di chuyển (3) bước
+  chờ (0.1) giây
 xóa bản sao này
 ```
 
-#### Bước 4: Xử lý khi tàu đến đảo
+#### Hoạt động mở rộng - "Thay đổi tốc độ tàu"
+- **Hoạt động**: Thay đổi tốc độ di chuyển của tàu địch
+- **Mục tiêu**: Hiểu cách điều chỉnh độ khó trò chơi
+- **Thử thách**: Tạo tàu địch có tốc độ khác nhau
+
+### Phần 5: Tạo đạn và hệ thống bắn (15 phút)
+
+#### Lập trình trong Scratch với hiệu ứng trực quan
 ```scratch
+# Tạo đạn
+1. Chọn "Choose a Sprite" → "Things" → chọn đạn
+2. Đặt tên: "Dan"
+3. Đặt ở giữa màn hình
+
+# Lập trình bắn đạn
+Khi nhấn chuột
+tạo bản sao của [Dan v]
+
 Khi tôi là bản sao
+hiện
+đặt x thành (0)
+đặt y thành (0)
+hướng về phía (con trỏ chuột v)
+lặp lại (30) lần
+  di chuyển (10) bước
+  chờ (0.05) giây
+xóa bản sao này
+```
+
+#### Hoạt động mở rộng - "Thêm âm thanh bắn"
+- **Hoạt động**: Thêm âm thanh khi bắn đạn
+- **Mục tiêu**: Hiểu cách thêm âm thanh vào trò chơi
+- **Thử thách**: Tạo âm thanh khác nhau cho các loại đạn
+
+### Phần 6: Tạo hệ thống điểm và điều kiện thắng/thua (10 phút)
+
+#### Lập trình trong Scratch với hiệu ứng trực quan
+```scratch
+# Tạo biến số điểm
+1. Chọn "Variables" → "Make a Variable"
+2. Đặt tên: "Diem"
+3. Chọn "For all sprites"
+
+# Kiểm tra va chạm và tính điểm
+Khi tôi là bản sao của [Dan v]
+nếu <chạm [TauDich v]?> thì
+thay đổi [Diem v] bởi (10)
+phát âm thanh [pop v]
+xóa bản sao này
+
+# Kiểm tra điều kiện thua
+Khi tôi là bản sao của [TauDich v]
 nếu <chạm [Dao v]?> thì
-thay đổi [MangSong v] bởi (-1)
-phát âm thanh [hurt v]
-xóa bản sao này
-```
-
-### Phần 5: Tạo hệ thống điểm số và mạng sống (15 phút)
-
-#### Bước 1: Tạo biến điểm số
-1. Chọn "Variables" → "Make a Variable"
-2. Đặt tên: "DiemSo"
-3. Đặt giá trị ban đầu: 0
-
-#### Bước 2: Tạo biến mạng sống
-1. Chọn "Variables" → "Make a Variable"
-2. Đặt tên: "MangSong"
-3. Đặt giá trị ban đầu: 3
-
-#### Bước 3: Hiển thị điểm số và mạng sống
-```scratch
-Khi cờ xanh được nhấn
-đặt [DiemSo v] thành (0)
-đặt [MangSong v] thành (3)
-```
-
-#### Bước 4: Kiểm tra game over
-```scratch
-Khi cờ xanh được nhấn
-lặp lại cho đến khi <[MangSong v] = [0]>
-nếu <[MangSong v] = [0]> thì
-nói [Game Over! Điểm số: ] + [DiemSo v] trong (3) giây
+nói [Game Over! Điểm số: ] + [Diem v] trong (3) giây
 dừng [tất cả v]
 ```
 
-### Phần 6: Thêm tính năng nâng cao (5 phút)
+#### Hoạt động mở rộng - "Thêm hệ thống level"
+- **Hoạt động**: Tạo hệ thống level với độ khó tăng dần
+- **Mục tiêu**: Hiểu cách tạo trò chơi có nhiều level
+- **Thử thách**: Tạo level boss với tàu địch đặc biệt
 
-#### Bước 1: Thêm power-up
-```scratch
-Khi cờ xanh được nhấn
-lặp lại mãi mãi
-chờ (30) giây
-tạo bản sao của [PowerUp v]
-```
+## 🎯 Tổng kết và đánh giá (20 phút)
 
-#### Bước 2: Tăng tốc độ bắn
-```scratch
-Khi tôi là bản sao của [PowerUp v]
-nếu <chạm [Dao v]?> thì
-phát âm thanh [power up v]
-xóa bản sao này
-```
+### Tổng kết kiến thức
+- **Trò chơi phòng thủ**: Bảo vệ một vị trí khỏi kẻ thù
+- **Clone**: Tạo nhiều đối tượng giống nhau
+- **Hệ thống điểm**: Theo dõi thành tích của người chơi
+- **Tương tác**: Sử dụng chuột để điều khiển
+
+### Đánh giá học sinh
+- **Tạo trò chơi**: Tạo được trò chơi phòng thủ hoàn chỉnh
+- **Sử dụng clone**: Sử dụng clone để tạo nhiều đối tượng
+- **Hệ thống điểm**: Tạo được hệ thống điểm số
+- **Tư duy logic**: Hiểu được luồng hoạt động của trò chơi
 
 ## 🎨 Hoạt động mở rộng
 
 ### Cấp độ 1: Thêm tính năng cơ bản
-- Thêm nhiều loại tàu địch
-- Tạo hiệu ứng nổ khi tiêu diệt
-- Thêm âm thanh nền
+- **Nhiều loại đạn**: Tạo đạn có sức mạnh khác nhau
+- **Âm thanh**: Thêm âm thanh nền và hiệu ứng
+- **Hiệu ứng**: Thêm animation khi tàu địch bị tiêu diệt
 
 ### Cấp độ 2: Tính năng nâng cao
-- Tạo hệ thống level
-- Thêm boss cuối level
-- Tạo shop mua vũ khí
+- **Nhiều loại tàu**: Tạo tàu địch có tốc độ và sức mạnh khác nhau
+- **Hệ thống level**: Tạo nhiều level với độ khó tăng dần
+- **Power-up**: Thêm vật phẩm tăng sức mạnh
 
 ### Cấp độ 3: Sáng tạo
-- Thiết kế chủ đề game khác
-- Thêm multiplayer
-- Tạo hệ thống ranking
+- **Trò chơi mới**: Tạo trò chơi phòng thủ với chủ đề khác
+- **Multiplayer**: Tạo trò chơi nhiều người chơi
+- **AI**: Tạo tàu địch có trí tuệ nhân tạo
 
 ## 📝 Bài tập về nhà
 
 ### Bài tập bắt buộc
-1. Hoàn thành trò chơi cơ bản
-2. Thêm ít nhất 2 loại tàu địch khác nhau
-3. Tạo hệ thống điểm cao (high score)
+1. **Hoàn thành trò chơi**: Tạo trò chơi bảo vệ đảo hoàn chỉnh
+2. **Thêm âm thanh**: Thêm âm thanh nền và hiệu ứng
+3. **Tùy chỉnh**: Thay đổi màu sắc và kích thước nhân vật
 
 ### Bài tập nâng cao
-1. Thêm hệ thống level với độ khó tăng dần
-2. Tạo boss với nhiều giai đoạn
-3. Thiết kế giao diện menu game
+1. **Nhiều loại tàu**: Tạo tàu địch có tốc độ khác nhau
+2. **Hệ thống level**: Tạo hệ thống level với độ khó tăng dần
+3. **Power-up**: Thêm vật phẩm tăng sức mạnh
 
-## 🔍 Đánh giá
+### Bài tập sáng tạo
+1. **Trò chơi mới**: Tạo trò chơi phòng thủ với chủ đề khác
+2. **Câu chuyện**: Viết câu chuyện cho trò chơi
+3. **Chia sẻ**: Chia sẻ trò chơi với bạn bè và gia đình
 
-### Tiêu chí đánh giá
-| Tiêu chí | Điểm | Mô tả |
-|----------|------|-------|
-| Game logic | 4 | Trò chơi hoạt động đúng, có hệ thống điểm |
-| Tính năng | 3 | Có ít nhất 3 tính năng khác nhau |
-| Sáng tạo | 2 | Có yếu tố độc đáo và sáng tạo |
-| Code quality | 2 | Code rõ ràng, có comment |
-| Trình bày | 1 | Demo mượt mà, giải thích tốt |
-| Tổng cộng | 12 | |
+## 🔧 Tài nguyên hỗ trợ
 
-### Cách đánh giá
-- **Quan sát**: Giáo viên quan sát quá trình lập trình
-- **Sản phẩm**: Kiểm tra trò chơi hoàn chỉnh
-- **Code review**: Kiểm tra chất lượng code
-- **Trình bày**: Học sinh demo và giải thích logic
+### Tài liệu tham khảo
+- **Scratch Game Design**: Hướng dẫn thiết kế trò chơi
+- **Clone Management**: Quản lý clone trong Scratch
+- **Game Logic**: Logic trò chơi cơ bản
 
-## 🚀 Lưu ý quan trọng
+### Công cụ hỗ trợ
+- **Scratch Editor**: Môi trường lập trình trực quan
+- **Sprite Library**: Thư viện nhân vật và hình nền
+- **Sound Library**: Thư viện âm thanh miễn phí
 
-### Cho giáo viên
-- Giải thích kỹ khái niệm clone
-- Hướng dẫn cách debug khi có lỗi
-- Khuyến khích học sinh thử nghiệm
-- Chuẩn bị sẵn code mẫu để hỗ trợ
-
-### Cho học sinh
-- Hiểu rõ logic game trước khi code
-- Test thường xuyên để phát hiện lỗi
-- Không ngại thử nghiệm tính năng mới
-- Lưu dự án thường xuyên
-
-## 💡 Mẹo hay
-
-### Tối ưu hiệu suất
-- Sử dụng clone thay vì tạo nhiều sprite
-- Xóa clone khi không cần thiết
-- Sử dụng biến để quản lý trạng thái
-
-### Game balance
-- Điều chỉnh tốc độ và sát thương hợp lý
-- Tạo độ khó tăng dần
-- Thêm phần thưởng để tạo động lực
-
-### Debug hiệu quả
-- Sử dụng "say" để debug
-- Kiểm tra từng phần một
-- Test với các trường hợp khác nhau
-
-## 📚 Tài liệu tham khảo
-
-- [Scratch Game Development](https://scratch.mit.edu/explore/projects/games)
-- [Scratch Clone Tutorial](https://scratch.mit.edu/tutorials)
-- [Game Design Principles](https://scratch.mit.edu/studios/104)
-
----
-
-**Tác giả**: AI & Trần Việt Trung (BKHN)  
-**Ngày tạo**: 04/10/2025  
-**Phiên bản**: 1.0
+### Đánh giá và phản hồi
+- **Rubric đánh giá**: Tiêu chí đánh giá trò chơi phòng thủ
+- **Peer Review**: Đánh giá lẫn nhau giữa học sinh
+- **Portfolio**: Tập hợp các dự án và bài tập của học sinh
