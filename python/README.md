@@ -19,6 +19,7 @@ python/
 ├── lessons/                  # Bài giảng chính
 │   ├── bai-giang-1-gioi-thieu-python.md
 │   ├── bai-giang-2-thuat-toan-tim-kiem.md
+│   ├── bai-giang-2-3-cau-truc-du-lieu.md
 │   ├── bai-giang-2-5-thuat-toan-sap-xep.md
 │   ├── bai-giang-3-du-an-tong-hop.md
 │   ├── bai-giang-3-5-thuat-toan-xu-ly-chuoi.md
@@ -51,6 +52,12 @@ python/
 - **Tìm kiếm nhị phân**: Binary Search hiệu quả
 - **So sánh hiệu suất**: Đánh giá thuật toán
 - **Ứng dụng thực tế**: Tìm kiếm trong cơ sở dữ liệu
+
+### Bài 2.3: Cấu trúc dữ liệu Python
+- **Dictionary**: Key-Value pairs, tìm kiếm nhanh
+- **Tuple**: Dữ liệu không thay đổi, tọa độ
+- **Set**: Loại bỏ trùng lặp, phép toán tập hợp
+- **Ứng dụng thực tế**: Quản lý thông tin học sinh
 
 ### Bài 2.5: Thuật toán sắp xếp Python
 - **Sắp xếp nổi bọt**: Bubble Sort với vòng lặp lồng nhau
@@ -132,8 +139,9 @@ pip install pygame
 - Cấu trúc điều khiển
 - Bài tập cơ bản
 
-### Tuần 3-4: Thuật toán cơ bản
+### Tuần 3-4: Thuật toán và cấu trúc dữ liệu
 - Tìm kiếm và sắp xếp
+- Cấu trúc dữ liệu Python
 - Xử lý chuỗi
 - Bài tập nâng cao
 

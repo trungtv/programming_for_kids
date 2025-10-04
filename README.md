@@ -48,6 +48,12 @@
 - So sánh hiệu suất thuật toán
 - Ứng dụng thực tế
 
+#### **Bài 2.3: Cấu trúc dữ liệu Python**
+- Dictionary (từ điển) - Key-Value pairs
+- Tuple (bộ) - Dữ liệu không thay đổi
+- Set (tập hợp) - Loại bỏ trùng lặp
+- Ứng dụng quản lý thông tin
+
 #### **Bài 2.5: Thuật toán sắp xếp Python**
 - Sắp xếp nổi bọt (Bubble Sort)
 - Sắp xếp chọn (Selection Sort)
