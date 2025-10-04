@@ -19,7 +19,10 @@ python/
 ├── lessons/                  # Bài giảng chính
 │   ├── bai-giang-1-gioi-thieu-python.md
 │   ├── bai-giang-2-thuat-toan-tim-kiem.md
-│   └── bai-giang-3-du-an-tong-hop.md
+│   ├── bai-giang-2-5-thuat-toan-sap-xep.md
+│   ├── bai-giang-3-du-an-tong-hop.md
+│   ├── bai-giang-3-5-thuat-toan-xu-ly-chuoi.md
+│   └── bai-giang-4-thuat-toan-toan-hoc.md
 ├── exercises/                # Bài tập thực hành
 │   ├── bai-tap-co-ban.md
 │   ├── bai-tap-nang-cao.md
@@ -49,10 +52,28 @@ python/
 - **So sánh hiệu suất**: Đánh giá thuật toán
 - **Ứng dụng thực tế**: Tìm kiếm trong cơ sở dữ liệu
 
+### Bài 2.5: Thuật toán sắp xếp Python
+- **Sắp xếp nổi bọt**: Bubble Sort với vòng lặp lồng nhau
+- **Sắp xếp chọn**: Selection Sort hiệu quả
+- **So sánh hiệu suất**: Đánh giá thuật toán sắp xếp
+- **Ứng dụng thực tế**: Sắp xếp dữ liệu trong Python
+
 ### Bài 3: Dự án tổng hợp
 - **Game platformer**: Tạo game 2D đơn giản
 - **Quản lý học sinh**: Chương trình quản lý điểm số
 - **Máy tính nâng cao**: Calculator với nhiều tính năng
+
+### Bài 3.5: Thuật toán xử lý chuỗi
+- **Tìm kiếm chuỗi**: Tìm ký tự và từ trong văn bản
+- **Đếm chuỗi**: Đếm ký tự và từ
+- **Chuyển đổi chuỗi**: Upper, lower, reverse
+- **Ứng dụng thực tế**: Xử lý văn bản và tài liệu
+
+### Bài 4: Thuật toán toán học
+- **Số nguyên tố**: Kiểm tra và tìm số nguyên tố
+- **Giai thừa**: Tính giai thừa với vòng lặp
+- **Dãy Fibonacci**: Tính và in dãy Fibonacci
+- **Ứng dụng thực tế**: Mã hóa và bảo mật
 
 ## 🛠️ Yêu cầu hệ thống
 
@@ -111,14 +132,14 @@ pip install pygame
 - Cấu trúc điều khiển
 - Bài tập cơ bản
 
-### Tuần 3-4: Nâng cao
-- Danh sách và vòng lặp
-- Hàm và thủ tục
+### Tuần 3-4: Thuật toán cơ bản
+- Tìm kiếm và sắp xếp
+- Xử lý chuỗi
 - Bài tập nâng cao
 
-### Tuần 5-6: Dự án
-- Game platformer
-- Quản lý học sinh
+### Tuần 5-6: Thuật toán nâng cao
+- Thuật toán toán học
+- Dự án tổng hợp
 - Dự án sáng tạo
 
 ## 💡 Mẹo học hiệu quả

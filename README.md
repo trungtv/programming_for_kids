@@ -33,7 +33,7 @@
 - **Bài 7C**: Thuật toán sắp xếp - Sắp xếp cơ bản
 - **Bài 8**: Hàm và thủ tục - Chuẩn bị cho lập trình modular
 
-### 🐍 **Phần Python (Bài 1-3)**
+### 🐍 **Phần Python (Bài 1-4)**
 **Thư mục**: `python/`
 
 #### **Bài 1: Giới thiệu Python cơ bản**
@@ -48,11 +48,29 @@
 - So sánh hiệu suất thuật toán
 - Ứng dụng thực tế
 
+#### **Bài 2.5: Thuật toán sắp xếp Python**
+- Sắp xếp nổi bọt (Bubble Sort)
+- Sắp xếp chọn (Selection Sort)
+- So sánh hiệu suất thuật toán
+- Ứng dụng thực tế
+
 #### **Bài 3: Dự án tổng hợp**
 - Game platformer 2D
 - Quản lý học sinh
 - Máy tính nâng cao
 - Dự án sáng tạo
+
+#### **Bài 3.5: Thuật toán xử lý chuỗi**
+- Tìm kiếm chuỗi và đếm ký tự
+- Chuyển đổi chuỗi (upper, lower, reverse)
+- Xử lý văn bản và tài liệu
+- Ứng dụng thực tế
+
+#### **Bài 4: Thuật toán toán học**
+- Số nguyên tố và kiểm tra
+- Tính giai thừa và dãy Fibonacci
+- Mã hóa và bảo mật
+- Ứng dụng thực tế
 
 ## 🎯 Độ tuổi phù hợp
 
@@ -61,13 +79,13 @@
 | **8-9 tuổi** | Bài 1-2.5 | Cơ bản |
 | **9-10 tuổi** | Bài 3-5 | Trung bình |
 | **10-11 tuổi** | Bài 6-8 Scratch | Nâng cao |
-| **11-12 tuổi** | Bài 1-3 Python | Chuyên sâu |
+| **11-12 tuổi** | Bài 1-4 Python | Chuyên sâu |
 
 ## 🛠️ Công cụ cần thiết
 
 - **Scratch**: [scratch.mit.edu](https://scratch.mit.edu) (miễn phí)
-- **Python**: [python.org](https://python.org) (cho bài 1-3 Python)
-- **Trình soạn thảo**: VS Code hoặc PyCharm (cho bài 1-3 Python)
+- **Python**: [python.org](https://python.org) (cho bài 1-4 Python)
+- **Trình soạn thảo**: VS Code hoặc PyCharm (cho bài 1-4 Python)
 
 ## 📋 Cách sử dụng giáo trình
 
