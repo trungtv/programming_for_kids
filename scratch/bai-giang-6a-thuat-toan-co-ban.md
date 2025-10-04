@@ -1,32 +1,31 @@
-# Bài Giảng 6: Thuật Toán Và Logic Lập Trình
+# Bài Giảng 6A: Thuật Toán Cơ Bản
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 90 phút (2 tiết)
 - **Độ tuổi**: Lớp 4-5 (9-11 tuổi)
-- **Mức độ**: Trung bình đến nâng cao
-- **Mục tiêu**: Phát triển tư duy thuật toán và logic để chuẩn bị cho Python
+- **Mức độ**: Trung bình
+- **Mục tiêu**: Hiểu khái niệm thuật toán và học thuật toán sắp xếp, tìm kiếm cơ bản
 
 ## 🎯 Mục tiêu học tập
 
 ### Kiến thức
 - Hiểu khái niệm thuật toán và cách hoạt động
 - Biết cách chia nhỏ vấn đề thành các bước
-- Hiểu các cấu trúc điều khiển cơ bản
+- Hiểu thuật toán sắp xếp và tìm kiếm cơ bản
 
 ### Kỹ năng
 - Phân tích và giải quyết vấn đề
 - Thiết kế thuật toán đơn giản
-- Debug và tối ưu hóa code
+- Debug và tối ưu hóa code cơ bản
 
 ### Thái độ
 - Phát triển tư duy logic
 - Rèn luyện tính kiên trì
 - Khuyến khích tư duy phản biện
 
-
 ## 🧠 Nội dung bài học
 
-### Phần 1: Giới thiệu thuật toán qua hoạt động không máy tính (15 phút)
+### Phần 1: Giới thiệu thuật toán qua hoạt động không máy tính (20 phút)
 
 #### Hoạt động khởi động - "Hướng dẫn bạn làm bánh sandwich"
 - **Hoạt động**: Học sinh A hướng dẫn học sinh B làm bánh sandwich mà không được nhìn
@@ -50,7 +49,12 @@ Bước 6: Cắt đôi bánh sandwich
 - **Output**: Bánh sandwich hoàn chỉnh
 - **Đặc điểm**: Các bước phải rõ ràng, có thứ tự, có thể lặp lại
 
-### Phần 2: Thuật toán sắp xếp qua trò chơi thực tế (25 phút)
+#### Hoạt động thực hành - "Hướng dẫn bạn đi từ lớp đến thư viện"
+- **Hoạt động**: Học sinh viết hướng dẫn chi tiết từ lớp đến thư viện
+- **Mục tiêu**: Thực hành chia nhỏ vấn đề thành các bước
+- **Kết quả**: Hiểu tầm quan trọng của thuật toán trong cuộc sống
+
+### Phần 2: Thuật toán sắp xếp qua trò chơi thực tế (35 phút)
 
 #### Hoạt động không máy tính - "Sắp xếp học sinh theo chiều cao"
 - **Hoạt động**: Yêu cầu học sinh đứng thành hàng theo chiều cao từ thấp đến cao
@@ -108,7 +112,12 @@ nói [Đã đổi chỗ số 2 và số 3] trong (2) giây
 nói [Sau khi sắp xếp: ] + [So1 v] + [, ] + [So2 v] + [, ] + [So3 v] trong (3) giây
 ```
 
-### Phần 3: Thuật toán tìm kiếm qua trò chơi "Tìm kho báu" (20 phút)
+#### Hoạt động mở rộng - "Sắp xếp 5 số"
+- **Hoạt động**: Mở rộng thuật toán cho 5 số
+- **Mục tiêu**: Hiểu cách thuật toán hoạt động với nhiều phần tử hơn
+- **Thử thách**: Tìm cách tối ưu hóa thuật toán
+
+### Phần 3: Thuật toán tìm kiếm qua trò chơi "Tìm kho báu" (35 phút)
 
 #### Hoạt động không máy tính - "Tìm bạn cao nhất trong lớp"
 - **Hoạt động**: Học sinh đứng thành vòng tròn, tìm bạn cao nhất
@@ -164,104 +173,10 @@ chờ (1) giây
 nói [Điểm cao nhất trong lớp là: ] + [DiemCaoNhat v] trong (3) giây
 ```
 
-### Phần 4: Thuật toán đếm và thống kê qua trò chơi "Đếm đồ vật" (20 phút)
-
-#### Hoạt động không máy tính - "Đếm số bạn nam và nữ trong lớp"
-- **Hoạt động**: Học sinh đứng thành hàng, đếm số bạn nam và nữ
-- **Quy tắc**: Đi từ đầu đến cuối hàng, đếm từng người một
-- **Mục tiêu**: Hiểu thuật toán đếm và phân loại
-
-#### Bài toán: Đếm số học sinh giỏi trong lớp
-- **Input**: Danh sách điểm [8, 9, 7, 10, 6, 9, 8, 7]
-- **Output**: Số học sinh có điểm >= 8 (4 học sinh)
-- **Ví dụ**: Thống kê số học sinh đạt loại giỏi
-
-#### Thuật toán đếm qua ví dụ thực tế
-```
-Bước 1: Khởi tạo biến đếm = 0
-Bước 2: Xem điểm của bạn đầu tiên (8)
-Bước 3: Vì 8 >= 8, tăng biến đếm lên 1
-Bước 4: Xem điểm của bạn tiếp theo (9)
-Bước 5: Vì 9 >= 8, tăng biến đếm lên 2
-Bước 6: Tiếp tục cho đến hết danh sách
-```
-
-#### Vẽ sơ đồ thuật toán
-```
-[Start] → [Đặt đếm = 0] → [Xem điểm tiếp theo]
-    ↓
-[Điểm >= 8?] → [Có: Tăng đếm lên 1] → [Không: Giữ nguyên đếm]
-    ↓
-[Còn điểm nào?] → [Có: Tiếp tục] → [Không: Hiển thị kết quả]
-```
-
-#### Lập trình trong Scratch với hiệu ứng trực quan
-```scratch
-Khi cờ xanh được nhấn
-đặt [DanhSachDiem v] thành [8,9,7,10,6,9,8,7]
-nói [Danh sách điểm lớp: ] + [DanhSachDiem v] trong (3) giây
-chờ (2) giây
-đặt [DemHocSinhGioi v] thành (0)
-đặt [ViTri v] thành (1)
-nói [Bắt đầu đếm học sinh giỏi (điểm >= 8)...] trong (2) giây
-```
-
-#### Thuật toán đếm với hiệu ứng âm thanh
-```scratch
-lặp lại (8) lần
-nếu <(mục (ViTri) của [DanhSachDiem v]) >= [8]> thì
-phát âm thanh [pop v]
-thay đổi [DemHocSinhGioi v] bởi (1)
-nói [Điểm ] + (mục (ViTri) của [DanhSachDiem v]) + [ - Đạt loại giỏi!] trong (2) giây
-nếu không
-nói [Điểm ] + (mục (ViTri) của [DanhSachDiem v]) + [ - Chưa đạt loại giỏi] trong (1) giây
-thay đổi [ViTri v] bởi (1)
-chờ (1) giây
-nói [Tổng số học sinh giỏi: ] + [DemHocSinhGioi v] + [ học sinh] trong (3) giây
-```
-
-### Phần 5: Thuật toán tính toán qua trò chơi "Xây tháp" (10 phút)
-
-#### Hoạt động không máy tính - "Xây tháp bằng khối LEGO"
-- **Hoạt động**: Xây tháp 5 tầng bằng khối LEGO
-- **Quy tắc**: Tầng 1 có 1 khối, tầng 2 có 2 khối, tầng 3 có 3 khối...
-- **Mục tiêu**: Hiểu thuật toán tính tổng và giai thừa
-
-#### Bài toán: Tính tổng điểm của lớp
-- **Input**: Số học sinh n = 5
-- **Output**: Tổng điểm từ 1 đến 5 = 1+2+3+4+5 = 15
-- **Ví dụ**: Tính tổng điểm của 5 học sinh đầu tiên
-
-#### Thuật toán tính tổng qua ví dụ thực tế
-```
-Bước 1: Khởi tạo tổng = 0
-Bước 2: Thêm điểm học sinh 1 (1) vào tổng → tổng = 1
-Bước 3: Thêm điểm học sinh 2 (2) vào tổng → tổng = 3
-Bước 4: Thêm điểm học sinh 3 (3) vào tổng → tổng = 6
-Bước 5: Tiếp tục cho đến học sinh thứ 5
-```
-
-#### Lập trình trong Scratch với hiệu ứng trực quan
-```scratch
-Khi cờ xanh được nhấn
-đặt [SoHocSinh v] thành (5)
-nói [Tính tổng điểm của ] + [SoHocSinh v] + [ học sinh đầu tiên] trong (3) giây
-chờ (2) giây
-đặt [TongDiem v] thành (0)
-đặt [i v] thành (1)
-nói [Bắt đầu tính tổng...] trong (2) giây
-```
-
-#### Thuật toán tính tổng với hiệu ứng âm thanh
-```scratch
-lặp lại ([SoHocSinh v]) lần
-phát âm thanh [pop v]
-thay đổi [TongDiem v] bởi ([i v])
-nói [Học sinh ] + [i v] + [ có điểm ] + [i v] + [. Tổng hiện tại: ] + [TongDiem v] trong (2) giây
-thay đổi [i v] bởi (1)
-chờ (1) giây
-nói [Tổng điểm của ] + [SoHocSinh v] + [ học sinh là: ] + [TongDiem v] trong (3) giây
-```
+#### Hoạt động mở rộng - "Tìm số nhỏ nhất"
+- **Hoạt động**: Sửa đổi thuật toán để tìm số nhỏ nhất
+- **Mục tiêu**: Hiểu cách điều chỉnh thuật toán cho mục đích khác
+- **Thử thách**: Tìm cả số lớn nhất và nhỏ nhất trong một lần duyệt
 
 ## 🎨 Hoạt động mở rộng
 
@@ -273,24 +188,24 @@ nói [Tổng điểm của ] + [SoHocSinh v] + [ học sinh là: ] + [TongDiem v
 ### Cấp độ 2: Tính năng nâng cao
 - **Sắp xếp nhiều phần tử**: Mở rộng thuật toán cho 10 số
 - **Tìm kiếm thông minh**: Tìm kiếm với nhiều điều kiện
-- **Thống kê nâng cao**: Tính điểm trung bình, độ lệch chuẩn
+- **So sánh hiệu suất**: So sánh tốc độ của các thuật toán khác nhau
 
 ### Cấp độ 3: Sáng tạo
 - **Game thuật toán**: Tạo trò chơi sắp xếp thẻ bài
 - **Thuật toán riêng**: Thiết kế thuật toán giải quyết vấn đề thực tế
-- **Dự án tích hợp**: Kết hợp nhiều thuật toán trong một dự án lớn
+- **Dự án tích hợp**: Kết hợp sắp xếp và tìm kiếm trong một dự án
 
 ## 📝 Bài tập về nhà
 
 ### Bài tập bắt buộc
 1. **Sắp xếp điểm số**: Viết thuật toán sắp xếp 5 điểm số từ cao đến thấp
 2. **Tìm học sinh giỏi nhất**: Tạo chương trình tìm học sinh có điểm cao nhất
-3. **Tính điểm trung bình**: Tính điểm trung bình của lớp học
+3. **Sắp xếp tên**: Sắp xếp danh sách tên học sinh theo thứ tự ABC
 
 ### Bài tập nâng cao
 1. **Sắp xếp thông minh**: Sắp xếp danh sách học sinh theo điểm từ cao đến thấp
-2. **Thống kê lớp học**: Tìm số học sinh đạt loại giỏi, khá, trung bình
-3. **Thuật toán riêng**: Thiết kế thuật toán giải quyết vấn đề thực tế (ví dụ: sắp xếp lịch học)
+2. **Tìm kiếm nâng cao**: Tìm học sinh có điểm trong khoảng 8-10
+3. **Thuật toán riêng**: Thiết kế thuật toán sắp xếp lịch học theo thời gian
 
 ## 🔍 Đánh giá
 
@@ -302,7 +217,7 @@ nói [Tổng điểm của ] + [SoHocSinh v] + [ học sinh là: ] + [TongDiem v
 | Tối ưu hóa | 2 | Thuật toán hiệu quả |
 | Sáng tạo | 1 | Có yếu tố độc đáo |
 | Trình bày | 1 | Giải thích rõ ràng |
-| Tổng cộng | 10 | |
+| **Tổng cộng** | **10** | |
 
 ### Cách đánh giá
 - **Quan sát**: Giáo viên quan sát quá trình tư duy
@@ -341,20 +256,14 @@ nói [Tổng điểm của ] + [SoHocSinh v] + [ học sinh là: ] + [TongDiem v
 - **Sử dụng biến tạm**: Dùng biến tạm để lưu giá trị trung gian
 - **Tránh lặp lại**: Không lặp lại các phép tính không cần thiết
 
-### Phương pháp học hiệu quả
-- **Hoạt động không máy tính**: Thực hành thuật toán bằng tay trước
-- **Ví dụ từ cuộc sống**: Liên hệ với các tình huống thực tế
-- **Làm việc nhóm**: Thảo luận và chia sẻ ý tưởng với bạn bè
+## 🔗 Chuẩn bị cho bài tiếp theo
 
-## 🔗 Kết nối với Python
+### Bài 6B: Thuật toán nâng cao
+- Thuật toán đếm và thống kê
+- Thuật toán tính toán
+- Tổng hợp và dự án
 
-### Khái niệm tương đồng
-- **Biến**: Scratch variables ↔ Python variables
-- **Vòng lặp**: Scratch loops ↔ Python for/while
-- **Điều kiện**: Scratch if/else ↔ Python if/else
-- **Danh sách**: Scratch lists ↔ Python lists
-
-### Chuẩn bị cho Python
+### Kết nối với Python
 - Hiểu cú pháp cơ bản
 - Làm quen với môi trường lập trình
 - Thực hành với các bài toán đơn giản
@@ -365,8 +274,6 @@ nói [Tổng điểm của ] + [SoHocSinh v] + [ học sinh là: ] + [TongDiem v
 - [Teaching Algorithmic Thinking](https://codinginmathclass.wordpress.com/2014/09/10/how-to-teach-algorithmic-thinking/)
 - [Computational Thinking in Scratch](https://www.lifeinthetechlab.com/teacher/compThinking/)
 - [Scratch Algorithm Projects](https://scratch.mit.edu/explore/projects/algorithms)
-- [Introduction to Algorithms](https://scratch.mit.edu/tutorials)
-- [Python for Kids](https://python.org)
 
 ---
 
