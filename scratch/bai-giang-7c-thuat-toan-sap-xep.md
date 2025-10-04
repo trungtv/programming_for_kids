@@ -88,50 +88,44 @@ Tiếp tục cho đến khi hoàn thành...
 
 ### Phần 3: Tạo game "Sắp xếp nổi bọt" trên Scratch (25 phút)
 
-#### Lập trình trong Scratch với hiệu ứng trực quan
+#### Bước 1: Tạo các biến và list cần thiết
+```scratch
+# Tạo các biến sau:
+1. Biến "isSorted" - để kiểm tra xem danh sách đã được sắp xếp chưa
+2. Biến "i" - để làm chỉ số duyệt qua danh sách
+3. Biến "temp" - để lưu tạm giá trị khi đổi chỗ
+4. List "DanhSach" - để chứa các số cần sắp xếp
+```
+
+#### Bước 2: Lập trình thuật toán sắp xếp nổi bọt
 ```scratch
 # Khởi tạo dữ liệu
 Khi cờ xanh được nhấn
-đặt [So1 v] thành [8]
-đặt [So2 v] thành [9]
-đặt [So3 v] thành [7]
-đặt [So4 v] thành [10]
-đặt [So5 v] thành [6]
-nói [Trước khi sắp xếp: ] + [So1 v] + [, ] + [So2 v] + [, ] + [So3 v] + [, ] + [So4 v] + [, ] + [So5 v] trong (3) giây
+xóa tất cả trong [DanhSach v]
+thêm [8] vào [DanhSach v]
+thêm [9] vào [DanhSach v]
+thêm [7] vào [DanhSach v]
+thêm [10] vào [DanhSach v]
+thêm [6] vào [DanhSach v]
+nói [Trước khi sắp xếp: ] + [DanhSach v] trong (3) giây
 
 # Thuật toán sắp xếp nổi bọt
-lặp lại (4) lần
-  nếu <[So1 v] < [So2 v]> thì
-    phát âm thanh [pop v]
-    đặt [Temp v] thành [So1 v]
-    đặt [So1 v] thành [So2 v]
-    đặt [So2 v] thành [Temp v]
-    nói [Đã đổi chỗ số 1 và số 2] trong (1) giây
-  
-  nếu <[So2 v] < [So3 v]> thì
-    phát âm thanh [pop v]
-    đặt [Temp v] thành [So2 v]
-    đặt [So2 v] thành [So3 v]
-    đặt [So3 v] thành [Temp v]
-    nói [Đã đổi chỗ số 2 và số 3] trong (1) giây
-  
-  nếu <[So3 v] < [So4 v]> thì
-    phát âm thanh [pop v]
-    đặt [Temp v] thành [So3 v]
-    đặt [So3 v] thành [So4 v]
-    đặt [So4 v] thành [Temp v]
-    nói [Đã đổi chỗ số 3 và số 4] trong (1) giây
-  
-  nếu <[So4 v] < [So5 v]> thì
-    phát âm thanh [pop v]
-    đặt [Temp v] thành [So4 v]
-    đặt [So4 v] thành [So5 v]
-    đặt [So5 v] thành [Temp v]
-    nói [Đã đổi chỗ số 4 và số 5] trong (1) giây
-  
-  nói [Kết quả sau lần này: ] + [So1 v] + [, ] + [So2 v] + [, ] + [So3 v] + [, ] + [So4 v] + [, ] + [So5 v] trong (2) giây
+đặt [isSorted v] thành [0]
+lặp lại cho đến khi <[isSorted v] = [1]>
+  đặt [isSorted v] thành [1]
+  đặt [i v] thành [1]
+  lặp lại ((chiều dài của [DanhSach v]) - (1)) lần
+    nếu <(mục (i) của [DanhSach v]) > (mục ((i) + (1)) của [DanhSach v])> thì
+      phát âm thanh [pop v]
+      đặt [temp v] thành (mục (i) của [DanhSach v])
+      thay thế mục (i) của [DanhSach v] bằng (mục ((i) + (1)) của [DanhSach v])
+      thay thế mục ((i) + (1)) của [DanhSach v] bằng [temp v]
+      đặt [isSorted v] thành [0]
+      nói [Đã đổi chỗ mục ] + [i v] + [ và ] + ((i) + (1)) trong (1) giây
+    thay đổi [i v] bởi (1)
+  nói [Kết quả sau lần này: ] + [DanhSach v] trong (2) giây
 
-nói [Sau khi sắp xếp: ] + [So1 v] + [, ] + [So2 v] + [, ] + [So3 v] + [, ] + [So4 v] + [, ] + [So5 v] trong (3) giây
+nói [Sau khi sắp xếp: ] + [DanhSach v] trong (3) giây
 ```
 
 #### Hoạt động mở rộng - "Sắp xếp ngược"
@@ -139,54 +133,71 @@ nói [Sau khi sắp xếp: ] + [So1 v] + [, ] + [So2 v] + [, ] + [So3 v] + [, ] 
 - **Mục tiêu**: Hiểu cách điều chỉnh điều kiện so sánh
 - **Thử thách**: Tạo thuật toán sắp xếp theo nhiều tiêu chí khác nhau
 
+#### Giải thích các Scratch blocks quan trọng:
+```scratch
+# List blocks:
+- "xóa tất cả trong [DanhSach v]" - Xóa toàn bộ danh sách
+- "thêm [8] vào [DanhSach v]" - Thêm phần tử vào cuối danh sách
+- "(mục (i) của [DanhSach v])" - Lấy giá trị tại vị trí i
+- "thay thế mục (i) của [DanhSach v] bằng [temp v]" - Thay đổi giá trị tại vị trí i
+- "(chiều dài của [DanhSach v])" - Lấy số phần tử trong danh sách
+
+# Control blocks:
+- "lặp lại cho đến khi <[isSorted v] = [1]>" - Vòng lặp với điều kiện dừng
+- "lặp lại ((chiều dài của [DanhSach v]) - (1)) lần" - Vòng lặp với số lần cố định
+- "nếu <(mục (i) của [DanhSach v]) > (mục ((i) + (1)) của [DanhSach v])> thì" - Điều kiện so sánh
+
+# Variable blocks:
+- "đặt [i v] thành [1]" - Gán giá trị cho biến
+- "thay đổi [i v] bởi (1)" - Tăng giá trị biến lên 1
+```
+
 ### Phần 4: Tạo game "Sắp xếp chọn" trên Scratch (20 phút)
 
-#### Hoạt động không máy tính - "Tìm số nhỏ nhất"
-- **Hoạt động**: Học sinh tìm số nhỏ nhất trong danh sách và đặt lên đầu
-- **Mục tiêu**: Hiểu thuật toán sắp xếp chọn
-- **Quy tắc**: Tìm số nhỏ nhất, đổi chỗ với vị trí đầu tiên
-- **Kết quả**: Nhận ra cách sắp xếp chọn hiệu quả hơn
+#### Bước 1: Tạo các biến cần thiết cho Selection Sort
+```scratch
+# Tạo các biến sau:
+1. Biến "i" - chỉ số vị trí hiện tại
+2. Biến "j" - chỉ số để duyệt qua các phần tử còn lại
+3. Biến "minIndex" - vị trí của phần tử nhỏ nhất
+4. Biến "temp" - để lưu tạm giá trị khi đổi chỗ
+5. List "DanhSach" - danh sách cần sắp xếp
+```
 
-#### Lập trình trong Scratch với hiệu ứng trực quan
+#### Bước 2: Lập trình thuật toán sắp xếp chọn
 ```scratch
 # Thuật toán sắp xếp chọn
 Khi cờ xanh được nhấn
-đặt [So1 v] thành [8]
-đặt [So2 v] thành [9]
-đặt [So3 v] thành [7]
-đặt [So4 v] thành [10]
-đặt [So5 v] thành [6]
-nói [Trước khi sắp xếp: ] + [So1 v] + [, ] + [So2 v] + [, ] + [So3 v] + [, ] + [So4 v] + [, ] + [So5 v] trong (3) giây
+xóa tất cả trong [DanhSach v]
+thêm [8] vào [DanhSach v]
+thêm [9] vào [DanhSach v]
+thêm [7] vào [DanhSach v]
+thêm [10] vào [DanhSach v]
+thêm [6] vào [DanhSach v]
+nói [Trước khi sắp xếp: ] + [DanhSach v] trong (3) giây
 
-# Tìm số nhỏ nhất và đổi chỗ
-đặt [ViTriNhoNhat v] thành [1]
-đặt [SoNhoNhat v] thành [So1 v]
+# Sắp xếp chọn
+đặt [i v] thành [1]
+lặp lại ((chiều dài của [DanhSach v]) - (1)) lần
+  đặt [minIndex v] thành [i v]
+  đặt [j v] thành ((i) + (1))
+  lặp lại ((chiều dài của [DanhSach v]) - (i)) lần
+    nếu <(mục (j) của [DanhSach v]) < (mục (minIndex) của [DanhSach v])> thì
+      đặt [minIndex v] thành [j v]
+    thay đổi [j v] bởi (1)
+  
+  # Đổi chỗ nếu cần
+  nếu <[minIndex v] ≠ [i v]> thì
+    phát âm thanh [pop v]
+    đặt [temp v] thành (mục (i) của [DanhSach v])
+    thay thế mục (i) của [DanhSach v] bằng (mục (minIndex) của [DanhSach v])
+    thay thế mục (minIndex) của [DanhSach v] bằng [temp v]
+    nói [Đã đổi chỗ mục ] + [i v] + [ và ] + [minIndex v] trong (1) giây
+  
+  thay đổi [i v] bởi (1)
+  nói [Kết quả sau lần này: ] + [DanhSach v] trong (2) giây
 
-# Tìm số nhỏ nhất
-nếu <[So2 v] < [SoNhoNhat v]> thì
-  đặt [SoNhoNhat v] thành [So2 v]
-  đặt [ViTriNhoNhat v] thành [2]
-
-nếu <[So3 v] < [SoNhoNhat v]> thì
-  đặt [SoNhoNhat v] thành [So3 v]
-  đặt [ViTriNhoNhat v] thành [3]
-
-nếu <[So4 v] < [SoNhoNhat v]> thì
-  đặt [SoNhoNhat v] thành [So4 v]
-  đặt [ViTriNhoNhat v] thành [4]
-
-nếu <[So5 v] < [SoNhoNhat v]> thì
-  đặt [SoNhoNhat v] thành [So5 v]
-  đặt [ViTriNhoNhat v] thành [5]
-
-# Đổi chỗ số nhỏ nhất với vị trí đầu tiên
-nếu <[ViTriNhoNhat v] = [2]> thì
-  đặt [Temp v] thành [So1 v]
-  đặt [So1 v] thành [So2 v]
-  đặt [So2 v] thành [Temp v]
-
-nói [Số nhỏ nhất là: ] + [SoNhoNhat v] + [ ở vị trí ] + [ViTriNhoNhat v] trong (2) giây
-nói [Kết quả: ] + [So1 v] + [, ] + [So2 v] + [, ] + [So3 v] + [, ] + [So4 v] + [, ] + [So5 v] trong (2) giây
+nói [Sau khi sắp xếp: ] + [DanhSach v] trong (3) giây
 ```
 
 #### Hoạt động mở rộng - "So sánh hiệu suất"

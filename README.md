@@ -13,7 +13,7 @@
 
 ## 📚 Cấu trúc giáo trình
 
-### 🎮 **Phần Scratch (Bài 1-8)**
+### 🎮 **Phần Scratch (11 bài học)**
 **Thư mục**: `scratch/`
 
 #### **Bài 1-3: Lập trình cơ bản**
@@ -73,7 +73,7 @@
 
 ### Cho học sinh:
 1. **Bắt đầu với Scratch** - Làm quen với tư duy lập trình
-2. **Hoàn thành 10 bài Scratch** (bao gồm 2.5, 6, 7A và 7B) trước khi chuyển sang Python
+2. **Hoàn thành 11 bài Scratch** (bao gồm 2.5, 6, 7A, 7B và 7C) trước khi chuyển sang Python
 3. **Làm theo hướng dẫn** từng bước trong mỗi bài
 4. **Thực hành** các bài tập và ví dụ
 5. **Sáng tạo** và thêm tính năng riêng
