@@ -63,7 +63,7 @@ Phần này chứa 8 bài giảng Scratch dành cho học sinh tiểu học (l�
 
 #### **Bài 7A: Thuật toán cơ bản**
 - **Mục tiêu**: Hiểu khái niệm thuật toán và học tìm số lớn nhất, đếm
-- **Kiến thức**: Thuật toán, tìm max, đếm, sắp xếp đơn giản
+- **Kiến thức**: Thuật toán, tìm max, đếm
 - **Kỹ năng**: Phân tích vấn đề, thiết kế thuật toán, debug code
 - **Thời gian**: 90 phút
 
@@ -71,6 +71,12 @@ Phần này chứa 8 bài giảng Scratch dành cho học sinh tiểu học (l�
 - **Mục tiêu**: Học thuật toán tính toán và tích hợp
 - **Kiến thức**: Tính tổng, tính trung bình, tích hợp nhiều thuật toán
 - **Kỹ năng**: Thiết kế thuật toán phức tạp, tích hợp hệ thống
+- **Thời gian**: 90 phút
+
+#### **Bài 7C: Thuật toán sắp xếp**
+- **Mục tiêu**: Học thuật toán sắp xếp cơ bản
+- **Kiến thức**: Sắp xếp nổi bọt, sắp xếp chọn, so sánh hiệu suất
+- **Kỹ năng**: Thiết kế thuật toán sắp xếp, phân tích hiệu suất
 - **Thời gian**: 90 phút
 
 #### **Bài 8: Hàm và thủ tục**

@@ -12,7 +12,7 @@
 - Hiểu khái niệm thuật toán
 - Nắm vững thuật toán tìm số lớn nhất
 - Hiểu thuật toán đếm số phần tử
-- Biết cách sắp xếp đơn giản
+- Biết cách áp dụng thuật toán vào thực tế
 
 ### Kỹ năng
 - Phân tích và giải quyết vấn đề có hệ thống
@@ -142,68 +142,18 @@ nói [Số học sinh giỏi: ] + [SoHocSinhGioi v] trong (3) giây
 - **Mục tiêu**: Hiểu cách điều chỉnh điều kiện trong thuật toán
 - **Thử thách**: Đếm nhiều loại học sinh cùng lúc (giỏi, khá, trung bình)
 
-### Phần 5: Tạo game "Sắp xếp số" trên Scratch (15 phút)
-
-#### Hoạt động không máy tính - "Sắp xếp học sinh theo chiều cao"
-- **Hoạt động**: Yêu cầu học sinh đứng thành hàng theo chiều cao từ thấp đến cao
-- **Mục tiêu**: Hiểu thuật toán sắp xếp bằng cách so sánh và đổi chỗ
-- **Quy tắc**: Chỉ được so sánh 2 người cạnh nhau, nếu sai thứ tự thì đổi chỗ
-
-#### Bài toán: Sắp xếp điểm số từ cao đến thấp
-- **Input**: Danh sách điểm [8, 9, 7, 10, 6]
-- **Output**: Danh sách đã sắp xếp [10, 9, 8, 7, 6]
-- **Ví dụ**: Sắp xếp điểm của lớp từ cao đến thấp
-
-#### Thuật toán sắp xếp qua ví dụ thực tế
-```
-Bước 1: So sánh điểm đầu tiên (8) với điểm thứ hai (9)
-Bước 2: Vì 8 < 9, đổi chỗ: [9, 8, 7, 10, 6]
-Bước 3: So sánh điểm thứ hai (8) với điểm thứ ba (7)
-Bước 4: Vì 8 > 7, giữ nguyên: [9, 8, 7, 10, 6]
-Bước 5: Tiếp tục cho đến hết danh sách
-```
-
-#### Lập trình trong Scratch với hiệu ứng trực quan
-```scratch
-Khi cờ xanh được nhấn
-đặt [So1 v] thành [8]
-đặt [So2 v] thành [9]
-đặt [So3 v] thành [7]
-nói [Trước khi sắp xếp: ] + [So1 v] + [, ] + [So2 v] + [, ] + [So3 v] trong (3) giây
-lặp lại (3) lần
-nếu <[So1 v] > [So2 v]> thì
-phát âm thanh [pop v]
-đặt [Temp v] thành [So1 v]
-đặt [So1 v] thành [So2 v]
-đặt [So2 v] thành [Temp v]
-nói [Đã đổi chỗ số 1 và số 2] trong (2) giây
-nếu <[So2 v] > [So3 v]> thì
-phát âm thanh [pop v]
-đặt [Temp v] thành [So2 v]
-đặt [So2 v] thành [So3 v]
-đặt [So3 v] thành [Temp v]
-nói [Đã đổi chỗ số 2 và số 3] trong (2) giây
-nói [Sau khi sắp xếp: ] + [So1 v] + [, ] + [So2 v] + [, ] + [So3 v] trong (3) giây
-```
-
-#### Hoạt động mở rộng - "Sắp xếp 5 số"
-- **Hoạt động**: Mở rộng thuật toán cho 5 số
-- **Mục tiêu**: Hiểu cách thuật toán hoạt động với nhiều phần tử hơn
-- **Thử thách**: Tìm cách tối ưu hóa thuật toán
-
 ## 🎯 Tổng kết và đánh giá (10 phút)
 
 ### Tổng kết kiến thức
 - **Thuật toán**: Các bước rõ ràng để giải quyết vấn đề
 - **Tìm số lớn nhất**: So sánh từng phần tử và cập nhật kết quả
 - **Đếm**: Duyệt qua danh sách và đếm theo điều kiện
-- **Sắp xếp**: So sánh và đổi chỗ để sắp xếp theo thứ tự
 - **Ứng dụng**: Thuật toán có mặt khắp nơi trong cuộc sống
 
 ### Đánh giá học sinh
 - **Hiểu thuật toán**: Có thể giải thích các bước của thuật toán
 - **Áp dụng thực tế**: Tìm được ví dụ thuật toán trong cuộc sống
-- **Lập trình Scratch**: Tạo được chương trình tìm max, đếm và sắp xếp
+- **Lập trình Scratch**: Tạo được chương trình tìm max và đếm
 - **Tư duy logic**: Phân tích và giải quyết vấn đề có hệ thống
 
 ## 🎨 Hoạt động mở rộng
@@ -214,31 +164,31 @@ nói [Sau khi sắp xếp: ] + [So1 v] + [, ] + [So2 v] + [, ] + [So3 v] trong (
 - **Âm thanh**: Tạo âm thanh khác nhau cho từng loại thuật toán
 
 ### Cấp độ 2: Tính năng nâng cao
-- **Sắp xếp nhiều phần tử**: Mở rộng thuật toán cho 10 số
 - **Tìm kiếm thông minh**: Tìm kiếm với nhiều điều kiện
+- **Đếm phức tạp**: Đếm nhiều loại cùng lúc
 - **So sánh hiệu suất**: So sánh tốc độ của các thuật toán khác nhau
 
 ### Cấp độ 3: Sáng tạo
-- **Game thuật toán**: Tạo trò chơi sắp xếp thẻ bài
+- **Game thuật toán**: Tạo trò chơi tìm số và đếm
 - **Thuật toán riêng**: Thiết kế thuật toán giải quyết vấn đề thực tế
-- **Dự án tích hợp**: Kết hợp tìm max, đếm và sắp xếp trong một dự án
+- **Dự án tích hợp**: Kết hợp tìm max và đếm trong một dự án
 
 ## 📝 Bài tập về nhà
 
 ### Bài tập bắt buộc
 1. **Tìm điểm cao nhất**: Viết thuật toán tìm điểm cao nhất trong 7 điểm số
 2. **Đếm học sinh khá**: Tạo chương trình đếm số học sinh có điểm >= 7
-3. **Sắp xếp tên**: Sắp xếp danh sách tên học sinh theo thứ tự ABC
+3. **Tìm số nhỏ nhất**: Sửa đổi thuật toán để tìm điểm thấp nhất
 
 ### Bài tập nâng cao
-1. **Tìm điểm thấp nhất**: Sửa đổi thuật toán để tìm điểm thấp nhất
-2. **Đếm nhiều loại**: Đếm đồng thời số học sinh giỏi, khá, trung bình
-3. **Sắp xếp ngược**: Sắp xếp danh sách từ thấp đến cao
+1. **Đếm nhiều loại**: Đếm đồng thời số học sinh giỏi, khá, trung bình
+2. **Tìm kiếm thông minh**: Tìm số lớn thứ hai trong danh sách
+3. **Thống kê cơ bản**: Tính tổng và trung bình điểm số
 
 ### Bài tập sáng tạo
 1. **Game điểm số**: Tạo game cho phép nhập điểm và hiển thị thống kê
 2. **Thuật toán riêng**: Thiết kế thuật toán giải quyết vấn đề trong lớp học
-3. **Dự án tích hợp**: Kết hợp tất cả thuật toán đã học vào một dự án lớn
+3. **Dự án tích hợp**: Kết hợp tìm max và đếm vào một dự án lớn
 
 ## 🔧 Tài nguyên hỗ trợ
 

@@ -30,6 +30,7 @@
 - **Bài 6**: Cấu trúc dữ liệu cơ bản - Danh sách và mảng
 - **Bài 7A**: Thuật toán cơ bản - Tìm số lớn nhất và đếm
 - **Bài 7B**: Thuật toán nâng cao - Tính toán và tích hợp
+- **Bài 7C**: Thuật toán sắp xếp - Sắp xếp cơ bản
 - **Bài 8**: Hàm và thủ tục - Chuẩn bị cho lập trình modular
 
 ### 🐍 **Phần Python (Bài 9-10)**
