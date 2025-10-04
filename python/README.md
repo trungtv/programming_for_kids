@@ -17,8 +17,9 @@ Package này chứa các bài giảng và tài liệu học Python dành cho h�
 python/
 ├── README.md                 # Tài liệu này
 ├── lessons/                  # Bài giảng chính
-│   ├── bai-giang-9-gioi-thieu-python.md
-│   └── bai-giang-10-du-an-tong-hop.md
+│   ├── bai-giang-1-gioi-thieu-python.md
+│   ├── bai-giang-2-thuat-toan-tim-kiem.md
+│   └── bai-giang-3-du-an-tong-hop.md
 ├── exercises/                # Bài tập thực hành
 │   ├── bai-tap-co-ban.md
 │   ├── bai-tap-nang-cao.md
@@ -36,13 +37,19 @@ python/
 
 ## 🎮 Nội dung học tập
 
-### Bài 9: Giới thiệu Python cơ bản
+### Bài 1: Giới thiệu Python cơ bản
 - **Cú pháp Python**: print(), biến số, kiểu dữ liệu
 - **Cấu trúc điều khiển**: if/else, for/while loops
 - **Chuyển đổi từ Scratch**: So sánh và chuyển đổi code
 - **Danh sách**: Tạo và sử dụng list trong Python
 
-### Bài 10: Dự án tổng hợp
+### Bài 2: Thuật toán tìm kiếm
+- **Tìm kiếm tuyến tính**: Linear Search trong danh sách
+- **Tìm kiếm nhị phân**: Binary Search hiệu quả
+- **So sánh hiệu suất**: Đánh giá thuật toán
+- **Ứng dụng thực tế**: Tìm kiếm trong cơ sở dữ liệu
+
+### Bài 3: Dự án tổng hợp
 - **Game platformer**: Tạo game 2D đơn giản
 - **Quản lý học sinh**: Chương trình quản lý điểm số
 - **Máy tính nâng cao**: Calculator với nhiều tính năng
