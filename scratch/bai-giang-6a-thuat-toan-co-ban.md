@@ -27,6 +27,12 @@
 
 ### Phần 1: Giới thiệu thuật toán qua hoạt động không máy tính (20 phút)
 
+#### Hoạt động khởi động - "Kết nối với câu chuyện"
+- **Hoạt động**: Nhắc lại bài 5 về câu chuyện tương tác
+- **Câu hỏi**: "Trong câu chuyện, nhân vật phải quyết định đi đường nào?"
+- **Kết nối**: "Hôm nay chúng ta sẽ học cách máy tính 'quyết định' và 'suy nghĩ'"
+- **Mục tiêu**: Kết nối storytelling với thuật toán
+
 #### Hoạt động khởi động - "Hướng dẫn bạn làm bánh sandwich"
 - **Hoạt động**: Học sinh A hướng dẫn học sinh B làm bánh sandwich mà không được nhìn
 - **Mục tiêu**: Hiểu tầm quan trọng của hướng dẫn chính xác và logic

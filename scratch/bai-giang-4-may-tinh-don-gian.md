@@ -1,7 +1,7 @@
 # Bài Giảng 4: Máy Tính Đơn Giản
 
 ## 📋 Thông tin bài học
-- **Thời gian**: 60 phút
+- **Thời gian**: 90 phút (2 tiết)
 - **Độ tuổi**: Lớp 4-5 (9-11 tuổi)
 - **Mức độ**: Trung bình
 - **Mục tiêu**: Tạo máy tính đơn giản với các phép toán cơ bản
@@ -26,7 +26,7 @@
 
 ## 🧮 Nội dung bài học
 
-### Phần 1: Giới thiệu và thiết kế (10 phút)
+### Phần 1: Giới thiệu và thiết kế (15 phút)
 
 #### Hoạt động khởi động
 - Cho học sinh xem máy tính thật và hỏi: "Máy tính hoạt động như thế nào?"
@@ -39,7 +39,7 @@
 - **Nút phép toán**: +, -, ×, ÷
 - **Nút đặc biệt**: =, C (xóa)
 
-### Phần 2: Tạo giao diện máy tính (15 phút)
+### Phần 2: Tạo giao diện máy tính (20 phút)
 
 #### Bước 1: Tạo hình nền
 1. Chọn "Choose a Backdrop" → "Other" → chọn màu xám

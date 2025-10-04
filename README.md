@@ -19,6 +19,7 @@
 #### **Bài 1-3: Lập trình cơ bản**
 - **Bài 1**: Trò chơi "Mèo đuổi chuột" - Làm quen với chuyển động và tương tác
 - **Bài 2**: Thiệp sinh nhật động - Học về giao diện và hiệu ứng
+- **Bài 2.5**: Biến số cơ bản - Làm quen với biến số và cách sử dụng
 - **Bài 3**: Trò chơi "Bảo vệ đảo" - Giới thiệu clone và hệ thống điểm số
 
 #### **Bài 4-5: Ứng dụng thực tế**
@@ -50,7 +51,7 @@
 
 | Độ tuổi | Bài học | Mức độ |
 |---------|---------|--------|
-| **8-9 tuổi** | Bài 1-2 | Cơ bản |
+| **8-9 tuổi** | Bài 1-2.5 | Cơ bản |
 | **9-10 tuổi** | Bài 3-5 | Trung bình |
 | **10-11 tuổi** | Bài 6A-10 | Nâng cao |
 
@@ -71,7 +72,7 @@
 
 ### Cho học sinh:
 1. **Bắt đầu với Scratch** - Làm quen với tư duy lập trình
-2. **Hoàn thành 9 bài Scratch** (bao gồm 6A và 6B) trước khi chuyển sang Python
+2. **Hoàn thành 10 bài Scratch** (bao gồm 2.5, 6A và 6B) trước khi chuyển sang Python
 3. **Làm theo hướng dẫn** từng bước trong mỗi bài
 4. **Thực hành** các bài tập và ví dụ
 5. **Sáng tạo** và thêm tính năng riêng

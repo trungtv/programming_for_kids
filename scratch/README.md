@@ -27,11 +27,17 @@ Phần này chứa 8 bài giảng Scratch dành cho học sinh tiểu học (l�
 - **Kỹ năng**: Tạo hoạt hình, thêm hiệu ứng, thiết kế giao diện
 - **Thời gian**: 60 phút
 
+#### **Bài 2.5: Biến số cơ bản**
+- **Mục tiêu**: Làm quen với biến số và cách sử dụng
+- **Kiến thức**: Khái niệm biến số, tạo và sử dụng biến số
+- **Kỹ năng**: Tạo biến số, đếm và tính toán, hiển thị giá trị
+- **Thời gian**: 45 phút
+
 #### **Bài 3: Trò chơi "Bảo vệ đảo"**
 - **Mục tiêu**: Giới thiệu clone và hệ thống điểm số
 - **Kiến thức**: Clone, biến số, hệ thống điểm
 - **Kỹ năng**: Tạo nhiều đối tượng, quản lý điểm số, tạo game hoàn chỉnh
-- **Thời gian**: 90 phút
+- **Thời gian**: 120 phút
 
 ### 🧮 **Bài 4-5: Ứng dụng thực tế**
 
@@ -77,8 +83,8 @@ Phần này chứa 8 bài giảng Scratch dành cho học sinh tiểu học (l�
 
 | Độ tuổi | Bài học | Mức độ | Thời gian |
 |---------|---------|--------|-----------|
-| **8-9 tuổi** | Bài 1-2 | Cơ bản | 60 phút/bài |
-| **9-10 tuổi** | Bài 3-5 | Trung bình | 90 phút/bài |
+| **8-9 tuổi** | Bài 1-2.5 | Cơ bản | 45-60 phút/bài |
+| **9-10 tuổi** | Bài 3-5 | Trung bình | 90-120 phút/bài |
 | **10-11 tuổi** | Bài 6A-8 | Nâng cao | 90 phút/bài |
 
 ## 🛠️ Công cụ cần thiết

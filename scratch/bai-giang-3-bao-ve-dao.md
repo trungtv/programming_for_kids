@@ -1,7 +1,7 @@
 # Bài Giảng 3: Trò Chơi "Bảo Vệ Đảo"
 
 ## 📋 Thông tin bài học
-- **Thời gian**: 90 phút (2 tiết)
+- **Thời gian**: 120 phút (3 tiết)
 - **Độ tuổi**: Lớp 5 (10-11 tuổi)
 - **Mức độ**: Trung bình đến nâng cao
 - **Mục tiêu**: Tạo trò chơi phòng thủ với hệ thống điểm số và level
@@ -26,7 +26,7 @@
 
 ## 🎮 Nội dung bài học
 
-### Phần 1: Giới thiệu và thiết kế game (15 phút)
+### Phần 1: Giới thiệu và thiết kế game (20 phút)
 
 #### Hoạt động khởi động
 - Cho học sinh xem video trò chơi "Bảo vệ đảo" hoàn chỉnh
@@ -39,7 +39,7 @@
 - **Mục tiêu**: Tiêu diệt tàu địch, không để chúng đến đảo
 - **Hệ thống điểm**: +10 điểm mỗi tàu bị tiêu diệt
 
-### Phần 2: Tạo hình nền và đảo (10 phút)
+### Phần 2: Tạo hình nền và đảo (15 phút)
 
 #### Bước 1: Tạo hình nền
 1. Chọn "Choose a Backdrop" → "Nature" → chọn biển
