@@ -1,4 +1,4 @@
-# Bài Giảng 3: Dự Án Tổng Hợp - "Game Platformer"
+# Bài giảng 8: Dự án tổng hợp - Game platformer
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 180 phút (4 tiết)

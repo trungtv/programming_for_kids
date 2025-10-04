@@ -1,4 +1,4 @@
-# Bài giảng 4: Thuật toán toán học - Số nguyên tố, giai thừa và Fibonacci
+# Bài giảng 7: Thuật toán toán học - Số nguyên tố, giai thừa và Fibonacci
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 90 phút

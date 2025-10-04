@@ -33,7 +33,7 @@
 - **Bài 7C**: Thuật toán sắp xếp - Sắp xếp cơ bản
 - **Bài 8**: Hàm và thủ tục - Chuẩn bị cho lập trình modular
 
-### 🐍 **Phần Python (Bài 1-4)**
+### 🐍 **Phần Python (Bài 1-8)**
 **Thư mục**: `python/`
 
 #### **Bài 1: Giới thiệu Python cơ bản**
@@ -42,41 +42,47 @@
 - Chuyển đổi từ Scratch sang Python
 - Danh sách và vòng lặp
 
-#### **Bài 2: Thuật toán tìm kiếm**
-- Tìm kiếm tuyến tính (Linear Search)
-- Tìm kiếm nhị phân (Binary Search)
-- So sánh hiệu suất thuật toán
-- Ứng dụng thực tế
-
-#### **Bài 2.3: Cấu trúc dữ liệu Python**
+#### **Bài 2: Cấu trúc dữ liệu Python**
 - Dictionary (từ điển) - Key-Value pairs
 - Tuple (bộ) - Dữ liệu không thay đổi
 - Set (tập hợp) - Loại bỏ trùng lặp
 - Ứng dụng quản lý thông tin
 
-#### **Bài 2.5: Thuật toán sắp xếp Python**
+#### **Bài 3: Thuật toán tìm kiếm**
+- Tìm kiếm tuyến tính (Linear Search)
+- Tìm kiếm nhị phân (Binary Search)
+- So sánh hiệu suất thuật toán
+- Ứng dụng thực tế
+
+#### **Bài 4: Thuật toán sắp xếp Python**
 - Sắp xếp nổi bọt (Bubble Sort)
 - Sắp xếp chọn (Selection Sort)
 - So sánh hiệu suất thuật toán
 - Ứng dụng thực tế
 
-#### **Bài 3: Dự án tổng hợp**
-- Game platformer 2D
-- Quản lý học sinh
-- Máy tính nâng cao
-- Dự án sáng tạo
+#### **Bài 5: Functions và Modules**
+- Tạo hàm và tham số
+- Import modules và tạo module riêng
+- Scope và biến local/global
+- Tái sử dụng code
 
-#### **Bài 3.5: Thuật toán xử lý chuỗi**
+#### **Bài 6: Thuật toán xử lý chuỗi**
 - Tìm kiếm chuỗi và đếm ký tự
 - Chuyển đổi chuỗi (upper, lower, reverse)
 - Xử lý văn bản và tài liệu
 - Ứng dụng thực tế
 
-#### **Bài 4: Thuật toán toán học**
+#### **Bài 7: Thuật toán toán học**
 - Số nguyên tố và kiểm tra
 - Tính giai thừa và dãy Fibonacci
 - Mã hóa và bảo mật
 - Ứng dụng thực tế
+
+#### **Bài 8: Dự án tổng hợp**
+- Game platformer 2D
+- Quản lý học sinh
+- Máy tính nâng cao
+- Dự án sáng tạo
 
 ## 🎯 Độ tuổi phù hợp
 
@@ -85,13 +91,13 @@
 | **8-9 tuổi** | Bài 1-2.5 | Cơ bản |
 | **9-10 tuổi** | Bài 3-5 | Trung bình |
 | **10-11 tuổi** | Bài 6-8 Scratch | Nâng cao |
-| **11-12 tuổi** | Bài 1-4 Python | Chuyên sâu |
+| **11-12 tuổi** | Bài 1-8 Python | Chuyên sâu |
 
 ## 🛠️ Công cụ cần thiết
 
 - **Scratch**: [scratch.mit.edu](https://scratch.mit.edu) (miễn phí)
-- **Python**: [python.org](https://python.org) (cho bài 1-4 Python)
-- **Trình soạn thảo**: VS Code hoặc PyCharm (cho bài 1-4 Python)
+- **Python**: [python.org](https://python.org) (cho bài 1-8 Python)
+- **Trình soạn thảo**: VS Code hoặc PyCharm (cho bài 1-8 Python)
 
 ## 📋 Cách sử dụng giáo trình
 

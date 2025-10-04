@@ -1,4 +1,4 @@
-# Bài giảng 2: Thuật toán tìm kiếm - Tìm kiếm tuyến tính và nhị phân
+# Bài giảng 3: Thuật toán tìm kiếm - Tìm kiếm tuyến tính và nhị phân
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 90 phút

@@ -18,12 +18,13 @@ python/
 ├── README.md                 # Tài liệu này
 ├── lessons/                  # Bài giảng chính
 │   ├── bai-giang-1-gioi-thieu-python.md
-│   ├── bai-giang-2-thuat-toan-tim-kiem.md
-│   ├── bai-giang-2-3-cau-truc-du-lieu.md
-│   ├── bai-giang-2-5-thuat-toan-sap-xep.md
-│   ├── bai-giang-3-du-an-tong-hop.md
-│   ├── bai-giang-3-5-thuat-toan-xu-ly-chuoi.md
-│   └── bai-giang-4-thuat-toan-toan-hoc.md
+│   ├── bai-giang-2-cau-truc-du-lieu.md
+│   ├── bai-giang-3-thuat-toan-tim-kiem.md
+│   ├── bai-giang-4-thuat-toan-sap-xep.md
+│   ├── bai-giang-5-functions-modules.md
+│   ├── bai-giang-6-thuat-toan-xu-ly-chuoi.md
+│   ├── bai-giang-7-thuat-toan-toan-hoc.md
+│   └── bai-giang-8-du-an-tong-hop.md
 ├── exercises/                # Bài tập thực hành
 │   ├── bai-tap-co-ban.md
 │   ├── bai-tap-nang-cao.md
@@ -47,40 +48,46 @@ python/
 - **Chuyển đổi từ Scratch**: So sánh và chuyển đổi code
 - **Danh sách**: Tạo và sử dụng list trong Python
 
-### Bài 2: Thuật toán tìm kiếm
-- **Tìm kiếm tuyến tính**: Linear Search trong danh sách
-- **Tìm kiếm nhị phân**: Binary Search hiệu quả
-- **So sánh hiệu suất**: Đánh giá thuật toán
-- **Ứng dụng thực tế**: Tìm kiếm trong cơ sở dữ liệu
-
-### Bài 2.3: Cấu trúc dữ liệu Python
+### Bài 2: Cấu trúc dữ liệu Python
 - **Dictionary**: Key-Value pairs, tìm kiếm nhanh
 - **Tuple**: Dữ liệu không thay đổi, tọa độ
 - **Set**: Loại bỏ trùng lặp, phép toán tập hợp
 - **Ứng dụng thực tế**: Quản lý thông tin học sinh
 
-### Bài 2.5: Thuật toán sắp xếp Python
+### Bài 3: Thuật toán tìm kiếm
+- **Tìm kiếm tuyến tính**: Linear Search trong danh sách
+- **Tìm kiếm nhị phân**: Binary Search hiệu quả
+- **So sánh hiệu suất**: Đánh giá thuật toán
+- **Ứng dụng thực tế**: Tìm kiếm trong cơ sở dữ liệu
+
+### Bài 4: Thuật toán sắp xếp Python
 - **Sắp xếp nổi bọt**: Bubble Sort với vòng lặp lồng nhau
 - **Sắp xếp chọn**: Selection Sort hiệu quả
 - **So sánh hiệu suất**: Đánh giá thuật toán sắp xếp
 - **Ứng dụng thực tế**: Sắp xếp dữ liệu trong Python
 
-### Bài 3: Dự án tổng hợp
-- **Game platformer**: Tạo game 2D đơn giản
-- **Quản lý học sinh**: Chương trình quản lý điểm số
-- **Máy tính nâng cao**: Calculator với nhiều tính năng
+### Bài 5: Functions và Modules
+- **Tạo hàm**: def, tham số, return
+- **Modules**: import, tạo module riêng
+- **Scope**: Biến local và global
+- **Ứng dụng thực tế**: Tái sử dụng code
 
-### Bài 3.5: Thuật toán xử lý chuỗi
+### Bài 6: Thuật toán xử lý chuỗi
 - **Tìm kiếm chuỗi**: Tìm ký tự và từ trong văn bản
 - **Đếm chuỗi**: Đếm ký tự và từ
 - **Chuyển đổi chuỗi**: Upper, lower, reverse
 - **Ứng dụng thực tế**: Xử lý văn bản và tài liệu
 
-### Bài 4: Thuật toán toán học
+### Bài 7: Thuật toán toán học
 - **Số nguyên tố**: Kiểm tra và tìm số nguyên tố
 - **Giai thừa**: Tính giai thừa với vòng lặp
 - **Dãy Fibonacci**: Tính và in dãy Fibonacci
 - **Ứng dụng thực tế**: Mã hóa và bảo mật
+
+### Bài 8: Dự án tổng hợp
+- **Game platformer**: Tạo game 2D đơn giản
+- **Quản lý học sinh**: Chương trình quản lý điểm số
+- **Máy tính nâng cao**: Calculator với nhiều tính năng
 
 ## 🛠️ Yêu cầu hệ thống
 
@@ -136,16 +143,17 @@ pip install pygame
 
 ### Tuần 1-2: Cơ bản Python
 - Cú pháp và biến số
-- Cấu trúc điều khiển
+- Cấu trúc dữ liệu cơ bản
 - Bài tập cơ bản
 
-### Tuần 3-4: Thuật toán và cấu trúc dữ liệu
-- Tìm kiếm và sắp xếp
-- Cấu trúc dữ liệu Python
-- Xử lý chuỗi
+### Tuần 3-4: Thuật toán cơ bản
+- Thuật toán tìm kiếm
+- Thuật toán sắp xếp
+- Functions và Modules
 - Bài tập nâng cao
 
 ### Tuần 5-6: Thuật toán nâng cao
+- Thuật toán xử lý chuỗi
 - Thuật toán toán học
 - Dự án tổng hợp
 - Dự án sáng tạo

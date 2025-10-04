@@ -1,4 +1,4 @@
-# Bài giảng 2.5: Thuật toán sắp xếp Python - Bubble Sort và Selection Sort
+# Bài giảng 4: Thuật toán sắp xếp Python - Bubble Sort và Selection Sort
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 90 phút

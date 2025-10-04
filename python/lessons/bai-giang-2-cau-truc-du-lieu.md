@@ -1,4 +1,4 @@
-# Bài giảng 2.3: Cấu trúc dữ liệu Python - Dictionary, Tuple và Set
+# Bài giảng 2: Cấu trúc dữ liệu Python - Dictionary, Tuple và Set
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 90 phút

@@ -1,4 +1,4 @@
-# Bài giảng 3.5: Thuật toán xử lý chuỗi - Tìm kiếm, đếm và chuyển đổi
+# Bài giảng 6: Thuật toán xử lý chuỗi - Tìm kiếm, đếm và chuyển đổi
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 90 phút
