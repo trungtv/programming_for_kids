@@ -13,25 +13,41 @@
 
 ## 📚 Cấu trúc giáo trình
 
-### 🎮 **Phần Scratch (11 bài học)**
+### 🎮 **Phần Scratch (17 bài học)**
 **Thư mục**: `scratch/`
 
-#### **Bài 1-3: Lập trình cơ bản**
+Giáo trình Scratch được tổ chức thành **6 topic chính**, mỗi topic chứa các bài giảng liên quan:
+
+#### **📁 Topic 1: Làm quen với Scratch** (`scratch/01-lam-quen/`)
 - **Bài 1**: Trò chơi "Mèo đuổi chuột" - Làm quen với chuyển động và tương tác
+- **Bài 1.5**: Giới thiệu về Blocks - Hiểu khái niệm blocks và các loại blocks
+
+#### **📁 Topic 2: Blocks và Biến số** (`scratch/02-blocks-va-bien/`)
 - **Bài 2**: Thiệp sinh nhật động - Học về giao diện và hiệu ứng
 - **Bài 2.5**: Biến số cơ bản - Làm quen với biến số và cách sử dụng
-- **Bài 3**: Trò chơi "Bảo vệ đảo" - Giới thiệu clone và hệ thống điểm số
+- **Bài 2.6**: Broadcast và Events - Cách các thành phần giao tiếp với nhau
 
-#### **Bài 4-5: Ứng dụng thực tế**
+#### **📁 Topic 3: Game và Ứng dụng** (`scratch/03-game-va-ung-dung/`)
+- **Bài 3**: Trò chơi "Bảo vệ đảo" - Giới thiệu clone và hệ thống điểm số
+- **Bài 3.5**: Custom Blocks - Tạo khối lệnh tùy chỉnh để tái sử dụng code
 - **Bài 4**: Máy tính đơn giản - Học về biến số và logic tính toán
 - **Bài 5**: Câu chuyện tương tác - Phát triển kỹ năng storytelling và broadcast
 
-#### **Bài 6-8: Tư duy lập trình nâng cao**
+#### **📁 Topic 4: Cấu trúc dữ liệu** (`scratch/04-cau-truc-du-lieu/`)
 - **Bài 6**: Cấu trúc dữ liệu cơ bản - Danh sách và mảng
-- **Bài 7A**: Thuật toán cơ bản - Tìm số lớn nhất và đếm
-- **Bài 7B**: Thuật toán nâng cao - Tính toán và tích hợp
-- **Bài 7C**: Thuật toán sắp xếp - Sắp xếp cơ bản
+
+#### **📁 Topic 5: Thuật toán** (`scratch/05-thuat-toan/`)
+- **Bài 7A**: Thuật toán tìm số lớn nhất và nhỏ nhất - Tìm giá trị đặc biệt
+- **Bài 7B**: Thuật toán đếm - Đếm số phần tử theo điều kiện
+- **Bài 7C**: Thuật toán tính toán - Tính tổng và trung bình
+- **Bài 7D**: Thuật toán Swap (Thay thế/Đổi chỗ) - Nền tảng cho sắp xếp
+- **Bài 7E**: Thuật toán tìm kiếm - Tìm phần tử trong danh sách
+- **Bài 7F**: Thuật toán sắp xếp - Sắp xếp cơ bản
+
+#### **📁 Topic 6: Hàm và Modular** (`scratch/06-ham-va-modular/`)
 - **Bài 8**: Hàm và thủ tục - Chuẩn bị cho lập trình modular
+
+**📖 Xem chi tiết**: [README.md trong thư mục scratch](scratch/README.md)
 
 ### 🐍 **Phần Python (Bài 1-8)**
 **Thư mục**: `python/`
@@ -110,7 +126,7 @@
 
 ### Cho học sinh:
 1. **Bắt đầu với Scratch** - Làm quen với tư duy lập trình
-2. **Hoàn thành 11 bài Scratch** (bao gồm 2.5, 6, 7A, 7B và 7C) trước khi chuyển sang Python
+2. **Hoàn thành 17 bài Scratch** (bao gồm 1.5, 2.5, 2.6, 3.5, 6, 7A, 7B, 7C, 7D, 7E và 7F) trước khi chuyển sang Python
 3. **Làm theo hướng dẫn** từng bước trong mỗi bài
 4. **Thực hành** các bài tập và ví dụ
 5. **Sáng tạo** và thêm tính năng riêng

@@ -1,4 +1,4 @@
-# Bài giảng 7C: Thuật toán sắp xếp cơ bản
+# Bài giảng 7F: Thuật toán sắp xếp cơ bản
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 90 phút
@@ -32,10 +32,10 @@
 ### Phần 1: Khái niệm sắp xếp qua hoạt động không máy tính (25 phút)
 
 #### Hoạt động khởi động - "Kết nối với bài trước"
-- **Hoạt động**: Nhắc lại bài 7A về thuật toán tìm max và đếm
-- **Câu hỏi**: "Chúng ta đã học cách tìm số lớn nhất như thế nào?"
-- **Kết nối**: "Hôm nay chúng ta sẽ học cách sắp xếp tất cả số theo thứ tự"
-- **Mục tiêu**: Kết nối thuật toán cơ bản với sắp xếp
+- **Hoạt động**: Nhắc lại bài 7D về swap (thay thế/đổi chỗ)
+- **Câu hỏi**: "Chúng ta đã học cách đổi chỗ hai giá trị như thế nào?"
+- **Kết nối**: "Hôm nay chúng ta sẽ sử dụng swap để sắp xếp tất cả số theo thứ tự"
+- **Mục tiêu**: Kết nối swap với sắp xếp - swap là kỹ thuật cốt lõi của sắp xếp
 
 #### Khái niệm sắp xếp qua ví dụ thực tế
 - **Định nghĩa**: Sắp xếp là sắp đặt các phần tử theo một thứ tự nhất định
@@ -93,9 +93,17 @@ Tiếp tục cho đến khi hoàn thành...
 # Tạo các biến sau:
 1. Biến "isSorted" - để kiểm tra xem danh sách đã được sắp xếp chưa
 2. Biến "i" - để làm chỉ số duyệt qua danh sách
-3. Biến "temp" - để lưu tạm giá trị khi đổi chỗ
+3. Biến "temp" - để lưu tạm giá trị khi đổi chỗ (nhớ lại Bài 7D về swap!)
 4. List "DanhSach" - để chứa các số cần sắp xếp
 ```
+
+#### Nhắc lại về Swap (từ Bài 7D)
+- **Swap là gì?**: Đổi chỗ hai giá trị cho nhau
+- **Ba bước swap**: 
+  1. temp = giá trị thứ nhất
+  2. giá trị thứ nhất = giá trị thứ hai
+  3. giá trị thứ hai = temp
+- **Trong sắp xếp**: Chúng ta sẽ sử dụng swap để đổi chỗ các phần tử khi cần thiết
 
 #### Bước 2: Lập trình thuật toán sắp xếp nổi bọt
 ```scratch
@@ -117,11 +125,12 @@ lặp lại cho đến khi <[isSorted v] = [1]>
   lặp lại ((chiều dài của [DanhSach v]) - (1)) lần
     nếu <(mục (i) của [DanhSach v]) > (mục ((i) + (1)) của [DanhSach v])> thì
       phát âm thanh [pop v]
-      đặt [temp v] thành (mục (i) của [DanhSach v])
-      thay thế mục (i) của [DanhSach v] bằng (mục ((i) + (1)) của [DanhSach v])
-      thay thế mục ((i) + (1)) của [DanhSach v] bằng [temp v]
+      # Sử dụng swap để đổi chỗ (nhớ lại Bài 7D!)
+      đặt [temp v] thành (mục (i) của [DanhSach v])  # Bước 1: Lưu giá trị vào temp
+      thay thế mục (i) của [DanhSach v] bằng (mục ((i) + (1)) của [DanhSach v])  # Bước 2: Gán giá trị thứ hai
+      thay thế mục ((i) + (1)) của [DanhSach v] bằng [temp v]  # Bước 3: Gán giá trị từ temp
       đặt [isSorted v] thành [0]
-      nói [Đã đổi chỗ mục ] + [i v] + [ và ] + ((i) + (1)) trong (1) giây
+      nói [Đã swap mục ] + [i v] + [ và ] + ((i) + (1)) trong (1) giây
     thay đổi [i v] bởi (1)
   nói [Kết quả sau lần này: ] + [DanhSach v] trong (2) giây
 
@@ -186,13 +195,14 @@ lặp lại ((chiều dài của [DanhSach v]) - (1)) lần
       đặt [minIndex v] thành [j v]
     thay đổi [j v] bởi (1)
   
-  # Đổi chỗ nếu cần
+  # Đổi chỗ nếu cần (sử dụng swap từ Bài 7D)
   nếu <[minIndex v] ≠ [i v]> thì
     phát âm thanh [pop v]
-    đặt [temp v] thành (mục (i) của [DanhSach v])
-    thay thế mục (i) của [DanhSach v] bằng (mục (minIndex) của [DanhSach v])
-    thay thế mục (minIndex) của [DanhSach v] bằng [temp v]
-    nói [Đã đổi chỗ mục ] + [i v] + [ và ] + [minIndex v] trong (1) giây
+    # Sử dụng swap để đổi chỗ
+    đặt [temp v] thành (mục (i) của [DanhSach v])  # Bước 1: Lưu giá trị vào temp
+    thay thế mục (i) của [DanhSach v] bằng (mục (minIndex) của [DanhSach v])  # Bước 2: Gán giá trị
+    thay thế mục (minIndex) của [DanhSach v] bằng [temp v]  # Bước 3: Gán giá trị từ temp
+    nói [Đã swap mục ] + [i v] + [ và ] + [minIndex v] trong (1) giây
   
   thay đổi [i v] bởi (1)
   nói [Kết quả sau lần này: ] + [DanhSach v] trong (2) giây
@@ -270,3 +280,23 @@ nói [Sau khi sắp xếp: ] + [DanhSach v] trong (3) giây
 - **Rubric đánh giá**: Tiêu chí đánh giá kỹ năng sắp xếp
 - **Peer Review**: Đánh giá lẫn nhau giữa học sinh
 - **Portfolio**: Tập hợp các dự án và bài tập của học sinh
+
+## 🔗 Kết nối với bài học khác
+
+### Kiến thức liên quan
+- **Bài 6**: Cấu trúc dữ liệu - Sử dụng danh sách (List)
+- **Bài 7A**: Thuật toán tìm số lớn nhất và nhỏ nhất
+- **Bài 7B**: Thuật toán đếm
+- **Bài 7C**: Thuật toán tính toán
+- **Bài 7D**: Thuật toán Swap - **Kỹ thuật cốt lõi được sử dụng trong sắp xếp!**
+
+### Chuẩn bị cho bài tiếp theo
+- Hiểu cách sắp xếp danh sách
+- Nắm vững swap để đổi chỗ phần tử
+- Sẵn sàng học hàm và thủ tục (Bài 8)
+
+---
+
+**Tác giả**: AI & Trần Việt Trung (BKHN)  
+**Ngày tạo**: 04/10/2025  
+**Phiên bản**: 1.0

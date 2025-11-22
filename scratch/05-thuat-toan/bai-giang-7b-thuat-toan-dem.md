@@ -1,18 +1,18 @@
-# Bài giảng 7A: Thuật toán cơ bản - Tìm số lớn nhất và đếm
+# Bài giảng 7B: Thuật toán đếm
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 90 phút
 - **Độ tuổi**: 10-11 tuổi
 - **Trình độ**: Trung bình
-- **Mục tiêu**: Hiểu thuật toán cơ bản và áp dụng vào Scratch
+- **Mục tiêu**: Hiểu và áp dụng thuật toán đếm số phần tử theo điều kiện
 
 ## 🎯 Mục tiêu học tập
 
 ### Kiến thức
-- Hiểu khái niệm thuật toán
-- Nắm vững thuật toán tìm số lớn nhất
-- Hiểu thuật toán đếm số phần tử
-- Biết cách áp dụng thuật toán vào thực tế
+- Hiểu khái niệm thuật toán đếm
+- Nắm vững thuật toán đếm số phần tử
+- Hiểu cách đếm với điều kiện
+- Biết cách áp dụng thuật toán đếm vào thực tế
 
 ### Kỹ năng
 - Phân tích và giải quyết vấn đề có hệ thống
@@ -50,28 +50,7 @@
 - **Mục tiêu**: Thực hành chia nhỏ vấn đề thành các bước
 - **Kết quả**: Hiểu tầm quan trọng của thuật toán trong cuộc sống
 
-### Phần 2: Thuật toán đơn giản - Tìm số lớn nhất và đếm (25 phút)
-
-#### Hoạt động không máy tính - "Tìm bạn cao nhất trong lớp"
-- **Hoạt động**: Học sinh đứng thành hàng, tìm bạn cao nhất
-- **Mục tiêu**: Hiểu thuật toán tìm số lớn nhất
-- **Quy tắc**: So sánh từng cặp, giữ lại người cao hơn
-- **Kết quả**: Nhận ra thuật toán tìm max có thể áp dụng cho số
-
-#### Bài toán: Tìm điểm cao nhất trong lớp
-- **Input**: Danh sách điểm [8, 9, 7, 10, 6]
-- **Output**: Điểm cao nhất (10)
-- **Ví dụ**: Tìm học sinh có điểm cao nhất trong lớp
-
-#### Thuật toán tìm số lớn nhất qua ví dụ thực tế
-```
-Bước 1: Giả sử điểm đầu tiên là cao nhất (8)
-Bước 2: So sánh với điểm tiếp theo (9)
-Bước 3: Vì 9 > 8, cập nhật điểm cao nhất = 9
-Bước 4: So sánh với điểm tiếp theo (7)
-Bước 5: Vì 7 < 9, giữ nguyên điểm cao nhất = 9
-Bước 6: Tiếp tục cho đến hết danh sách
-```
+### Phần 2: Thuật toán đếm (25 phút)
 
 #### Hoạt động không máy tính - "Đếm số bạn trong lớp"
 - **Hoạt động**: Học sinh đếm số bạn nam và nữ trong lớp
@@ -96,45 +75,50 @@ Bước 6: Tiếp tục cho đến hết danh sách
 
 ## 💻 PHẦN THỰC HÀNH SCRATCH (45 phút)
 
-### Phần 3: Tạo game "Tìm số lớn nhất" trên Scratch (15 phút)
+### Phần 3: Tạo game "Đếm số học sinh giỏi" trên Scratch (30 phút)
 
-#### Lập trình trong Scratch với hiệu ứng trực quan
+#### Bước 1: Tạo các biến cần thiết
 ```scratch
-Khi cờ xanh được nhấn
-đặt [DanhSachDiem v] thành [8,9,7,10,6]
-nói [Danh sách điểm: ] + [DanhSachDiem v] trong (3) giây
-đặt [DiemCaoNhat v] thành [8]
-đặt [ViTri v] thành [1]
-nói [Bắt đầu tìm điểm cao nhất...] trong (2) giây
-lặp lại (4) lần
-  nếu <[DiemCaoNhat v] < [DanhSachDiem v]> thì
-    đặt [DiemCaoNhat v] thành [DanhSachDiem v]
-    nói [Tìm thấy điểm cao hơn: ] + [DiemCaoNhat v] trong (2) giây
-  thay đổi [ViTri v] bởi (1)
-nói [Điểm cao nhất là: ] + [DiemCaoNhat v] trong (3) giây
+# Tạo các biến sau:
+1. Biến "DanhSachDiem" - danh sách điểm số (List)
+2. Biến "SoHocSinhGioi" - đếm số học sinh giỏi
+3. Biến "ViTri" - chỉ số vị trí hiện tại
 ```
 
-#### Hoạt động mở rộng - "Tìm số nhỏ nhất"
-- **Hoạt động**: Thay đổi thuật toán để tìm số nhỏ nhất
-- **Mục tiêu**: Hiểu cách điều chỉnh thuật toán cho các mục đích khác nhau
-- **Thử thách**: Tìm cả số lớn nhất và nhỏ nhất trong cùng một lần duyệt
-
-### Phần 4: Tạo game "Đếm số học sinh giỏi" trên Scratch (15 phút)
-
-#### Lập trình trong Scratch với hiệu ứng trực quan
+#### Bước 2: Lập trình thuật toán đếm
 ```scratch
 Khi cờ xanh được nhấn
-đặt [DanhSachDiem v] thành [8,9,7,10,6]
+# Khởi tạo danh sách điểm
+xóa tất cả trong [DanhSachDiem v]
+thêm [8] vào [DanhSachDiem v]
+thêm [9] vào [DanhSachDiem v]
+thêm [7] vào [DanhSachDiem v]
+thêm [10] vào [DanhSachDiem v]
+thêm [6] vào [DanhSachDiem v]
+
+# Hiển thị danh sách
 nói [Danh sách điểm: ] + [DanhSachDiem v] trong (3) giây
-đặt [SoHocSinhGioi v] thành [0]
-đặt [ViTri v] thành [1]
-nói [Bắt đầu đếm học sinh giỏi...] trong (2) giây
-lặp lại (5) lần
-  nếu <[DanhSachDiem v] >= [8]> thì
+chờ (1) giây
+
+# Khởi tạo biến đếm
+đặt [SoHocSinhGioi v] thành (0)
+đặt [ViTri v] thành (1)
+nói [Bắt đầu đếm học sinh giỏi (điểm >= 8)...] trong (2) giây
+
+# Duyệt qua danh sách và đếm
+lặp lại (chiều dài của [DanhSachDiem v]) lần
+  nếu <(mục (ViTri) của [DanhSachDiem v]) >= [8]> thì
     thay đổi [SoHocSinhGioi v] bởi (1)
-    nói [Tìm thấy học sinh giỏi!] trong (1) giây
+    phát âm thanh [pop v]
+    nói [Tìm thấy học sinh giỏi! Điểm: ] + (mục (ViTri) của [DanhSachDiem v]) + [. Tổng: ] + [SoHocSinhGioi v] trong (2) giây
+  nếu không
+    nói [Điểm ] + (mục (ViTri) của [DanhSachDiem v]) + [ không đạt loại giỏi] trong (1) giây
   thay đổi [ViTri v] bởi (1)
-nói [Số học sinh giỏi: ] + [SoHocSinhGioi v] trong (3) giây
+  chờ (0.5) giây
+
+# Kết quả
+nói [=== KẾT QUẢ ===] trong (2) giây
+nói [Số học sinh giỏi (điểm >= 8): ] + [SoHocSinhGioi v] trong (3) giây
 ```
 
 #### Hoạt động mở rộng - "Đếm với điều kiện khác"
@@ -145,15 +129,15 @@ nói [Số học sinh giỏi: ] + [SoHocSinhGioi v] trong (3) giây
 ## 🎯 Tổng kết và đánh giá (10 phút)
 
 ### Tổng kết kiến thức
-- **Thuật toán**: Các bước rõ ràng để giải quyết vấn đề
-- **Tìm số lớn nhất**: So sánh từng phần tử và cập nhật kết quả
-- **Đếm**: Duyệt qua danh sách và đếm theo điều kiện
-- **Ứng dụng**: Thuật toán có mặt khắp nơi trong cuộc sống
+- **Thuật toán đếm**: Duyệt qua danh sách và đếm theo điều kiện
+- **Khởi tạo biến đếm**: Bắt đầu từ 0
+- **Điều kiện đếm**: Kiểm tra điều kiện trước khi tăng biến đếm
+- **Ứng dụng**: Đếm có mặt khắp nơi trong cuộc sống (đếm học sinh giỏi, đếm số chẵn, v.v.)
 
 ### Đánh giá học sinh
-- **Hiểu thuật toán**: Có thể giải thích các bước của thuật toán
-- **Áp dụng thực tế**: Tìm được ví dụ thuật toán trong cuộc sống
-- **Lập trình Scratch**: Tạo được chương trình tìm max và đếm
+- **Hiểu thuật toán**: Có thể giải thích các bước của thuật toán đếm
+- **Áp dụng thực tế**: Tìm được ví dụ đếm trong cuộc sống
+- **Lập trình Scratch**: Tạo được chương trình đếm với điều kiện
 - **Tư duy logic**: Phân tích và giải quyết vấn đề có hệ thống
 
 ## 🎨 Hoạt động mở rộng
@@ -169,26 +153,26 @@ nói [Số học sinh giỏi: ] + [SoHocSinhGioi v] trong (3) giây
 - **So sánh hiệu suất**: So sánh tốc độ của các thuật toán khác nhau
 
 ### Cấp độ 3: Sáng tạo
-- **Game thuật toán**: Tạo trò chơi tìm số và đếm
-- **Thuật toán riêng**: Thiết kế thuật toán giải quyết vấn đề thực tế
-- **Dự án tích hợp**: Kết hợp tìm max và đếm trong một dự án
+- **Game thuật toán**: Tạo trò chơi đếm với nhiều điều kiện
+- **Thuật toán riêng**: Thiết kế thuật toán đếm giải quyết vấn đề thực tế
+- **Dự án tích hợp**: Kết hợp đếm với các thuật toán khác
 
 ## 📝 Bài tập về nhà
 
 ### Bài tập bắt buộc
-1. **Tìm điểm cao nhất**: Viết thuật toán tìm điểm cao nhất trong 7 điểm số
+1. **Đếm học sinh giỏi**: Viết thuật toán đếm số học sinh có điểm >= 8 trong 7 điểm số
 2. **Đếm học sinh khá**: Tạo chương trình đếm số học sinh có điểm >= 7
-3. **Tìm số nhỏ nhất**: Sửa đổi thuật toán để tìm điểm thấp nhất
+3. **Đếm số chẵn**: Tạo chương trình đếm số chẵn trong danh sách
 
 ### Bài tập nâng cao
 1. **Đếm nhiều loại**: Đếm đồng thời số học sinh giỏi, khá, trung bình
-2. **Tìm kiếm thông minh**: Tìm số lớn thứ hai trong danh sách
-3. **Thống kê cơ bản**: Tính tổng và trung bình điểm số
+2. **Đếm với nhiều điều kiện**: Đếm số học sinh có điểm từ 7 đến 9
+3. **Thống kê cơ bản**: Kết hợp đếm với tính tổng và trung bình
 
 ### Bài tập sáng tạo
-1. **Game điểm số**: Tạo game cho phép nhập điểm và hiển thị thống kê
-2. **Thuật toán riêng**: Thiết kế thuật toán giải quyết vấn đề trong lớp học
-3. **Dự án tích hợp**: Kết hợp tìm max và đếm vào một dự án lớn
+1. **Game điểm số**: Tạo game cho phép nhập điểm và đếm theo nhiều tiêu chí
+2. **Thuật toán riêng**: Thiết kế thuật toán đếm giải quyết vấn đề trong lớp học
+3. **Dự án tích hợp**: Kết hợp đếm với các thuật toán khác (tìm max, tính tổng)
 
 ## 🔧 Tài nguyên hỗ trợ
 
@@ -206,3 +190,21 @@ nói [Số học sinh giỏi: ] + [SoHocSinhGioi v] trong (3) giây
 - **Rubric đánh giá**: Tiêu chí đánh giá kỹ năng thuật toán
 - **Peer Review**: Đánh giá lẫn nhau giữa học sinh
 - **Portfolio**: Tập hợp các dự án và bài tập của học sinh
+
+## 🔗 Kết nối với bài học khác
+
+### Kiến thức liên quan
+- **Bài 6**: Cấu trúc dữ liệu - Sử dụng danh sách (List)
+- **Bài 7A**: Thuật toán tìm số lớn nhất và nhỏ nhất - Tìm kiếm trong danh sách
+- **Bài 7C**: Thuật toán tính toán - Tính tổng và trung bình
+
+### Chuẩn bị cho bài tiếp theo
+- Hiểu cách duyệt qua danh sách
+- Nắm vững điều kiện và biến đếm
+- Sẵn sàng học thuật toán tính toán (Bài 7C)
+
+---
+
+**Tác giả**: AI & Trần Việt Trung (BKHN)  
+**Ngày tạo**: 04/10/2025  
+**Phiên bản**: 1.0

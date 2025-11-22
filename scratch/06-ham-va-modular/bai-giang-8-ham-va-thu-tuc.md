@@ -26,12 +26,23 @@
 
 ## 🔧 Nội dung bài học
 
-### Phần 1: Giới thiệu hàm và thủ tục (15 phút)
+### Phần 1: Ôn tập Custom Blocks và giới thiệu hàm nâng cao (15 phút)
 
-#### Hoạt động khởi động
-- Hỏi: "Các em có biết hàm là gì không?"
-- Giải thích: "Hàm là một đoạn code có thể tái sử dụng"
-- Ví dụ: "Hàm tính diện tích hình chữ nhật"
+#### Hoạt động khởi động - "Nhớ lại Custom Blocks từ Bài 3.5"
+- **Hoạt động**: Nhắc lại Bài 3.5 về Custom Blocks
+- **Câu hỏi**: "Chúng ta đã học cách tạo custom blocks như thế nào?"
+- **Kết nối**: "Hôm nay chúng ta sẽ học nâng cao về custom blocks - tạo hàm phức tạp hơn"
+- **Mục tiêu**: Củng cố kiến thức về custom blocks và chuẩn bị cho bài nâng cao
+
+#### Ôn tập nhanh về Custom Blocks
+- **Custom Blocks là gì?**: Khối lệnh do chúng ta tự tạo, có thể tái sử dụng
+- **Lợi ích**: Tái sử dụng code, dễ quản lý, code ngắn gọn
+- **Tham số**: Giúp custom blocks linh hoạt hơn
+
+#### Giới thiệu bài mới - "Hàm và thủ tục nâng cao"
+- **Hàm tính toán**: Tính diện tích, chu vi, giai thừa
+- **Hàm kiểm tra**: Kiểm tra số chẵn/lẻ, số nguyên tố
+- **Hàm phức tạp**: Hàm có nhiều tham số, hàm lồng nhau
 
 #### Ví dụ thực tế
 - **Hàm tính toán**: Tính diện tích, chu vi

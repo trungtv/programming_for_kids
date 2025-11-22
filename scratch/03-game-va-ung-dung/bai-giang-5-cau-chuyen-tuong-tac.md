@@ -47,13 +47,26 @@
 - **Mục tiêu**: Có ý tưởng câu chuyện trước khi làm trên Scratch
 - **Kết quả**: Hiểu cấu trúc câu chuyện tương tác
 
-### Phần 2: Khái niệm broadcast qua hoạt động không máy tính (20 phút)
+### Phần 2: Ôn tập về Broadcast (10 phút)
 
-#### Hoạt động không máy tính - "Đồng bộ hoạt động"
-- **Hoạt động**: Học sinh đóng vai nhân vật, đồng bộ hoạt động
-- **Mục tiêu**: Hiểu khái niệm đồng bộ và broadcast
-- **Quy tắc**: Khi một nhân vật nói, các nhân vật khác phải im lặng
-- **Kết quả**: Nhận ra cần đồng bộ hoạt động giữa các nhân vật
+#### Hoạt động khởi động - "Nhớ lại Broadcast từ Bài 2.6"
+- **Hoạt động**: Nhắc lại Bài 2.6 về Broadcast và Events
+- **Câu hỏi**: "Chúng ta đã học về broadcast như thế nào trong bài trước?"
+- **Kết nối**: "Hôm nay chúng ta sẽ sử dụng broadcast để tạo câu chuyện tương tác"
+- **Mục tiêu**: Củng cố kiến thức về broadcast và áp dụng vào câu chuyện
+
+#### Ôn tập nhanh về Broadcast
+- **Broadcast là gì?**: Cách gửi thông điệp cho tất cả các thành phần đang lắng nghe
+- **Cách sử dụng**: `gửi tin nhắn [tên_message] cho tất cả` và `Khi nhận tin nhắn [tên_message]`
+- **Lợi ích**: Đồng bộ hoạt động, tách rời các thành phần, dễ quản lý
+
+### Phần 2.5: Áp dụng Broadcast vào câu chuyện (10 phút)
+
+#### Hoạt động không máy tính - "Đồng bộ hoạt động trong câu chuyện"
+- **Hoạt động**: Học sinh đóng vai nhân vật trong câu chuyện, đồng bộ hoạt động
+- **Mục tiêu**: Hiểu cách sử dụng broadcast để đồng bộ nhân vật trong câu chuyện
+- **Quy tắc**: Khi một nhân vật nói, các nhân vật khác phải im lặng và chờ đến lượt
+- **Kết quả**: Nhận ra broadcast giúp câu chuyện diễn ra đúng thứ tự
 
 #### Bài toán: Thiết kế câu chuyện tương tác
 - **Nhân vật chính**: 1-2 nhân vật
@@ -65,7 +78,7 @@
 - **Hoạt động**: Học sinh viết các bước để tạo câu chuyện
 - **Bước 1**: Tạo nhân vật và cảnh
 - **Bước 2**: Viết kịch bản cho từng nhân vật
-- **Bước 3**: Lập trình broadcast để đồng bộ
+- **Bước 3**: Lập trình broadcast để đồng bộ (sử dụng kiến thức từ Bài 2.6)
 - **Bước 4**: Thêm tương tác và lựa chọn
 - **Bước 5**: Test và chỉnh sửa
 
@@ -205,6 +218,7 @@ nói [Chúng ta đã về nhà an toàn!] trong (2) giây
 ## 🔧 Tài nguyên hỗ trợ
 
 ### Tài liệu tham khảo
+- **Bài 2.6**: Broadcast và Events - Nền tảng cho giao tiếp giữa các nhân vật
 - **Scratch Storytelling**: Hướng dẫn tạo câu chuyện
 - **Interactive Story Design**: Thiết kế câu chuyện tương tác
 - **Character Development**: Phát triển nhân vật

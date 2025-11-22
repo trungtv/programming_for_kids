@@ -1,4 +1,4 @@
-# Bài giảng 7B: Thuật toán nâng cao - Tính toán và tích hợp
+# Bài giảng 7C: Thuật toán tính toán - Tính tổng và trung bình
 
 ## 📋 Thông tin bài học
 - **Thời gian**: 90 phút
@@ -27,18 +27,17 @@
 
 ## 📚 PHẦN LÝ THUYẾT (45 phút)
 
-### Phần 1: Ôn tập và kết nối với bài 7A (15 phút)
+### Phần 1: Ôn tập và kết nối với bài 7A và 7B (15 phút)
 
-#### Hoạt động khởi động - "Nhớ lại thuật toán từ bài 7A"
-- **Hoạt động**: Học sinh nhắc lại 3 thuật toán đã học trong bài 7A
-- **Câu hỏi**: "Chúng ta đã học những thuật toán nào trong bài trước?"
-- **Kết nối**: "Hôm nay chúng ta sẽ học cách kết hợp các thuật toán đó"
+#### Hoạt động khởi động - "Nhớ lại thuật toán từ bài 7A và 7B"
+- **Hoạt động**: Học sinh nhắc lại các thuật toán đã học trong bài 7A và 7B
+- **Câu hỏi**: "Chúng ta đã học những thuật toán nào trong các bài trước?"
+- **Kết nối**: "Hôm nay chúng ta sẽ học cách tính tổng và trung bình, kết hợp với các thuật toán đã học"
 - **Mục tiêu**: Củng cố kiến thức và chuẩn bị cho bài mới
 
 #### Ôn tập nhanh các thuật toán đã học
-- **Tìm số lớn nhất**: So sánh từng phần tử và cập nhật kết quả
-- **Đếm số phần tử**: Duyệt qua danh sách và đếm theo điều kiện
-- **Sắp xếp**: So sánh và đổi chỗ để sắp xếp theo thứ tự
+- **Tìm số lớn nhất và nhỏ nhất** (Bài 7A): So sánh từng phần tử và cập nhật kết quả
+- **Đếm số phần tử** (Bài 7B): Duyệt qua danh sách và đếm theo điều kiện
 
 #### Giới thiệu bài mới - "Thuật toán tính toán"
 - **Tính tổng**: Cộng dồn các số trong danh sách
@@ -143,9 +142,9 @@ nói [Điểm trung bình: ] + [DiemTrungBinh v] trong (3) giây
 #### Thiết kế hệ thống
 ```
 1. Nhập danh sách điểm số
-2. Sắp xếp điểm từ cao đến thấp (từ bài 6A)
-3. Tìm điểm cao nhất và thấp nhất (từ bài 6A)
-4. Đếm số học sinh theo loại (từ bài 6A)
+2. Tìm điểm cao nhất và thấp nhất (từ bài 7A)
+3. Đếm số học sinh theo loại (từ bài 7B)
+4. Tính tổng điểm (bài mới)
 5. Tính tổng điểm (bài mới)
 6. Tính điểm trung bình (bài mới)
 7. Hiển thị báo cáo tổng hợp
@@ -162,17 +161,13 @@ chờ (2) giây
 nói [Danh sách điểm: ] + [DanhSachDiem v] trong (3) giây
 chờ (2) giây
 
-# Sắp xếp (từ bài 7A)
-nói [Đang sắp xếp điểm từ cao đến thấp...] trong (2) giây
-# [Code sắp xếp từ bài 7A]
-
 # Tìm kiếm (từ bài 7A)
 nói [Đang tìm điểm cao nhất và thấp nhất...] trong (2) giây
-# [Code tìm kiếm từ bài 7A]
+# [Code tìm max/min từ bài 7A]
 
-# Đếm (từ bài 7A)
+# Đếm (từ bài 7B)
 nói [Đang đếm số học sinh theo loại...] trong (2) giây
-# [Code đếm từ bài 7A]
+# [Code đếm từ bài 7B]
 
 # Tính tổng (bài mới)
 nói [Đang tính tổng điểm...] trong (2) giây
